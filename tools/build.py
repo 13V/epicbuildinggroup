@@ -21,6 +21,16 @@ PHOTOS = json.load(open(os.path.join(ROOT, "tools", "photos.json")))
 BY = {p["slug"]: p for p in P}
 e = html.escape
 
+import hashlib
+
+
+def ver(path):
+    """A short fingerprint of a file, so a changed stylesheet or script gets a new address."""
+    return hashlib.md5(open(os.path.join(ROOT, path), "rb").read()).hexdigest()[:8]
+
+
+CSS_V, JS_V = ver("assets/css/epic.css"), ver("assets/js/epic.js")
+
 ARROW = '<svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg>'
 PHONE = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>'
 BEAM = '<i class="beam" aria-hidden="true"></i>'
@@ -95,7 +105,7 @@ def head(title, desc, path, ld=None, preload=""):
 <meta property="og:description" content="{e(desc)}">
 <link rel="icon" href="/assets/img/brand/epic-mark.png" type="image/png">
 <link rel="preload" href="/assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>{preload}
-<link rel="stylesheet" href="/assets/css/epic.css">
+<link rel="stylesheet" href="/assets/css/epic.css?v={CSS_V}">
 <script>document.documentElement.classList.add("js")</script>{lds}
 </head>
 <body>
@@ -193,7 +203,7 @@ def footer(scripts=""):
   <a class="btn" href="/contact">Start a project</a>
 </div>
 
-<script src="/assets/js/epic.js" defer></script>{scripts}
+<script src="/assets/js/epic.js?v={JS_V}" defer></script>{scripts}
 </body>
 </html>
 """
