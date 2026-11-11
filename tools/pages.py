@@ -130,7 +130,16 @@ def build_all(B):
       </article>"""
     stages_home = "".join(f'<li data-reveal style="--i:{i}"><span class="label">0{i + 1}</span><b>{s[0]}</b><span>{s[1]}</span></li>' for i, s in enumerate(STAGES))
     svc = "".join(f'<li><a href="/services#{s["id"]}"><span class="n label">0{i + 1}</span>{s["name"]}{ARROW}</a></li>' for i, s in enumerate(SERVICES))
-    home = hero + f"""
+    home = hero + """
+<!-- Phones: the hero carries only the headline and the two actions. Its sentence and the note on
+     the photograph sit here, straight under it. -->
+<div class="hero-after dark">
+  <div class="wrap">
+    <p class="lede">On site and hands on. Second generation Adelaide builders of renovations and extensions, new homes, developments and commercial work, run with regular on site meetings.</p>
+    <p class="label">Pictured: new home, Torrens Park, 550 sqm, built Dec 2012 to Dec 2013</p>
+  </div>
+</div>
+""" + f"""
 <!-- 2. The record: facts as their own site states them -->
 <section class="record" aria-label="Epic Building Group at a glance">
   <div class="wrap">

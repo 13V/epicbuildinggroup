@@ -2900,3 +2900,56 @@ html:not(.js) .proc-n .shout {
 .hero.is-away .hero-art {
   transition: none;
 }
+
+/* ---------- Phone hero: the house, the headline and two actions. Nothing else. ---------- */
+.hero-after {
+  display: none;
+}
+@media (max-width: 899px) {
+  .hero .lede,
+  .hero .pictured,
+  .hero .replay {
+    display: none;
+  }
+  /* the build order shows while the house is being drawn, then clears off the photograph */
+  .stages {
+    display: none;
+  }
+  .hero::before {
+    display: none;
+  }
+  .hero::after {
+    background: linear-gradient(0deg, rgba(14, 16, 17, 0.96) 0%, rgba(14, 16, 17, 0.8) 26%, rgba(14, 16, 17, 0) 52%);
+  }
+  .hero .wrap {
+    gap: var(--s-4);
+    padding-bottom: 20px;
+  }
+  .hero-after {
+    display: block;
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--rule-dark);
+  }
+  .hero-after .wrap {
+    display: grid;
+    gap: var(--s-4);
+  }
+  .hero-after .lede {
+    color: #dcd8ce;
+  }
+  .hero-after .label {
+    color: var(--mist);
+  }
+}
+@media (max-width: 899px) and (prefers-reduced-motion: no-preference) {
+  .stages {
+    display: grid;
+    animation: stages-off 0.8s ease 6.3s both;
+  }
+}
+@keyframes stages-off {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
