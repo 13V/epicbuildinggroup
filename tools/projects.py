@@ -37,12 +37,12 @@ P = [
   lede="A late 1920s Tudor bungalow, fully renovated and extended, with its heritage features kept.",
   paras=["Heritage tiles were saved and reused, and new tiles found to match. The new windows match the existing ones and heritage red bricks match the old. The rear roof line was altered to match the front and keep the high ceilings throughout.",
          "The rear extension adds a formal lounge, dining, a kitchen with walk in pantry and a living room, with a new bathroom, powder room, laundry and an alfresco under the main roof. A substantial cellar is reached by stairs down from the main passage."]),
- dict(k="goodwood_as", slug="goodwood-new-home", name="Goodwood", type="New build", cat="new",
+ dict(k="goodwood_as", slug="goodwood-new-home", name="Goodwood", card="Goodwood new home", type="New build", cat="new",
   lede="A two storey Platinum Range home in solid brick, with a Tasmanian sandstone facade.",
   paras=["The ground floor has a guest bedroom with ensuite and an exceptionally wide hallway leading to the kitchen, dining and living area, with a separate concealed butler's pantry.",
          "From the hallway a single steel spine stairway rises to the upper level, which is hidden from the street: the master bedroom with walk through robe and full ensuite, two more bedrooms, the main bathroom and a retreat. The home has underfloor heating throughout and an owner designed high speed data network.",
          "The ground floor connects to the garage and has a shower and powder room to serve the pool, and a pool equipment room. Outside are a lap pool, a rear deck and poolside area, a 20,000 litre rainwater tank and a rear entrance to the adjoining street."]),
- dict(k="angas-goodwood", slug="goodwood-renovation", name="Goodwood", type="Renovation and extension", cat="reno", built="2019",
+ dict(k="angas-goodwood", slug="goodwood-renovation", name="Goodwood", card="Goodwood renovation", type="Renovation and extension", cat="reno", built="2019",
   lede="A home extended to the rear, with the existing house renovated and upgraded.",
   paras=["The extension added a new main bedroom with ensuite, a bathroom, laundry, dining and living rooms, and decking. The existing home was renovated and upgraded, and a new pool and spa were built outside."]),
  dict(k="millswood", slug="millswood", name="Millswood", type="Residential extension", cat="reno",
@@ -54,7 +54,7 @@ P = [
   lede="A full renovation and a new open plan extension, designed and built by Epic.",
   paras=["The clients engaged Epic Building Group for a complete design and construction solution. We reused the solid parts of the 1980s addition, its slab and walls.",
          "They were happy to leave the builders to it, meeting on site with magazine pictures to talk through ideas. It is one of Epic's favourite before and after projects: the home is now a very practical entertainer."]),
- dict(k="secstpeters", slug="st-peters-renovation", name="St Peters", type="Renovation and extension", cat="reno",
+ dict(k="secstpeters", slug="st-peters-renovation", name="St Peters", card="St Peters renovation", type="Renovation and extension", cat="reno",
   lede="Major upgrades to a bluestone and red brick home, with a new pool, an entertainment room and an undercover barbecue area.",
   paras=["The aim was to improve the flow of the existing home and give the extended family a large place to entertain, with every change blending into the character of the house.",
          "Built with the Epic Gold range of fixtures and fittings. The detail includes matching Federation skirtings, tessellated verandah tiles, and internal double doors with leadlight glass in the passage. A rear lane gave access for the work and for all services."]),
@@ -80,7 +80,7 @@ P = [
   paras=["The original stone and bricks were no longer available, so we matched the style with retaining wall blocks, cutting each one to size. The roof and the Stegbar windows are matched in as well.",
          "Large inset concrete blocks were used for the retaining wall because of the rocky ground, which saved the client a substantial amount compared with other options."]),
  dict(k="roystonpark", slug="royston-park", name="Royston Park", type="Extension", cat="reno", built="2016", scope="Construction and interior",
-  lede="A rear extension to a late 1950s sandstone fronted house.",
+  lede="A rear extension to a late 1950s or early 1960s sandstone double fronted house.",
   paras=["A new bathroom, toilet and laundry, keeping the 2800mm ceiling height. Two new Hardiplank walls match the existing ones, with four new aluminium windows and a door to outside. The roof slope matches the existing roof, and the air conditioning ducts and unit were relocated."]),
  dict(k="payneham", slug="payneham", name="Payneham", type="New build", cat="new", testimonial=1,
   lede="A contemporary single storey home on a narrow block.",
@@ -99,7 +99,7 @@ P = [
  dict(k="glenelg", slug="glenelg", name="Glenelg", type="New build residential", cat="dev", built="2015 to 2016", credit="Built for Lang & Oxford Design", video="W8zIdIXBu60",
   lede="Two three storey coastal duplexes on a tight site, built for development company Lang & Oxford Design.",
   paras=["The homes have rooftop pavilions, Jag designer kitchens, commercial grade windows and lifts."]),
- dict(k="cross_rd_highgate", slug="cross-road-highgate", name="Cross Road, Highgate", short="Cross Road", type="Residential development", cat="dev", built="2017", size="5 townhouses",
+ dict(k="cross_rd_highgate", slug="cross-road-highgate", name="Cross Road, Highgate", short="Cross Road", type="Residential development", cat="dev", built="From 2017", size="5 townhouses",
   lede="Five designer townhouses beside our earlier Highgate development.",
   paras=["The facades mix brick, render and natural timber. The layout is similar to the Epic development next door, with a fifth townhouse at the rear reached by a driveway from West Terrace."]),
  dict(k="newton", slug="newton", name="Newton", type="Residential development", cat="dev", size="6 townhouses",
@@ -116,7 +116,7 @@ P = [
   lede="A heritage railway tower, once an industrial laundry, converted into five levels of two bedroom apartments with an internal lift.",
   paras=["The existing structure and walls stayed. The roof and floors were removed, and the basement was dug deeper.",
          "The plans had to be adapted as the work went on, to suit what the existing building would allow. It was a very challenging project, and the owner was amazed with the outcome."]),
- dict(k="stpeters", slug="st-peters-duplex", name="St Peters", type="New build residential development", cat="dev", built="2008", duration="14 months",
+ dict(k="stpeters", slug="st-peters-duplex", name="St Peters", card="St Peters duplex", type="New build residential development", cat="dev", built="2008", duration="14 months",
   lede="A new Torrens title duplex with a common driveway, in a heritage area.",
   paras=["The new building was required to blend in with the existing heritage homes around it."]),
  dict(k="myrtlebank", slug="myrtle-bank", name="Myrtle Bank", type="New build residential development", cat="dev", built="2009",
@@ -149,4 +149,12 @@ EXTRA = {
  "highgate": ["/images/pr_highgate/highgate_18.jpg"],
  "field-street": ["/images/pr_fieldst/fieldst_15.jpg", "/images/pr_fieldst/fieldst_5.jpg", "/images/pr_fieldst/fieldst_10.jpg"],
  "ovingham": ["/images/pr_ovingham/ovingham_15.jpg"],
+}
+
+# Build sequences and galleries checked by hand against the photographs (file numbers).
+# Only these projects show named stages; the rest show their site photographs as one group.
+CHECKED = {
+ "ovingham": dict(dir="/images/pr_ovingham/ovingham_", hero=15, order=[15, 17], stages=[("site", [1]), ("frame", [2, 3, 5]), ("lockup", [6, 12]), ("fitout", [8, 9, 10])], pair=(6, 15, "During")),
+ "field-street": dict(dir="/images/pr_fieldst/fieldst_", stages=[("frame", [1, 2, 3]), ("lockup", [5]), ("fitout", [6, 8, 9])]),
+ "highgate": dict(dir="/images/pr_highgate/highgate_", stages=[("frame", [1, 2, 8]), ("lockup", [10, 15, 5]), ("fitout", [11, 14])]),
 }

@@ -1,6 +1,7 @@
 {
  "torrens-park": {
   "src": "torrenspark",
+  "checked": false,
   "hero": "/images/pr_torrenspark/torrenspark_6.jpg",
   "order": [
    "/images/pr_torrenspark/torrenspark_6.jpg",
@@ -84,6 +85,7 @@
  },
  "field-street": {
   "src": "fieldst",
+  "checked": true,
   "hero": "/images/pr_fieldst/fieldst_10.jpg",
   "order": [
    "/images/pr_fieldst/fieldst_10.jpg",
@@ -97,7 +99,7 @@
   "stages": [
    "/images/pr_fieldst/fieldst_1.jpg",
    "/images/pr_fieldst/fieldst_2.jpg",
-   "/images/pr_fieldst/fieldst_4.jpg",
+   "/images/pr_fieldst/fieldst_3.jpg",
    "/images/pr_fieldst/fieldst_5.jpg",
    "/images/pr_fieldst/fieldst_6.jpg",
    "/images/pr_fieldst/fieldst_8.jpg",
@@ -119,7 +121,7 @@
    "/images/pr_fieldst/fieldst_14.jpg",
    "/images/pr_fieldst/fieldst_1.jpg",
    "/images/pr_fieldst/fieldst_2.jpg",
-   "/images/pr_fieldst/fieldst_4.jpg",
+   "/images/pr_fieldst/fieldst_3.jpg",
    "/images/pr_fieldst/fieldst_5.jpg",
    "/images/pr_fieldst/fieldst_6.jpg",
    "/images/pr_fieldst/fieldst_8.jpg",
@@ -199,7 +201,7 @@
     "h": 450
    },
    {
-    "alt": "Timber wall framing and a yellow stair stringer on the mezzanine, with a scissor lift and steel roof above.",
+    "alt": "Timber stud wall framing on a new mezzanine floor, with workers on a scissor lift beyond.",
     "kind": "in-progress",
     "stage": "frame",
     "room": "",
@@ -242,22 +244,22 @@
  },
  "ovingham": {
   "src": "ovingham",
+  "checked": true,
   "hero": "/images/pr_ovingham/ovingham_15.jpg",
   "order": [
-   "/images/pr_ovingham/ovingham_13.jpg",
    "/images/pr_ovingham/ovingham_15.jpg",
-   "/images/pr_ovingham/ovingham_16.jpg",
    "/images/pr_ovingham/ovingham_17.jpg"
   ],
   "stages": [
    "/images/pr_ovingham/ovingham_1.jpg",
-   "/images/pr_ovingham/ovingham_7.jpg",
-   "/images/pr_ovingham/ovingham_3.jpg",
    "/images/pr_ovingham/ovingham_2.jpg",
-   "/images/pr_ovingham/ovingham_6.jpg",
+   "/images/pr_ovingham/ovingham_3.jpg",
    "/images/pr_ovingham/ovingham_5.jpg",
-   "/images/pr_ovingham/ovingham_4.jpg",
-   "/images/pr_ovingham/ovingham_8.jpg"
+   "/images/pr_ovingham/ovingham_6.jpg",
+   "/images/pr_ovingham/ovingham_12.jpg",
+   "/images/pr_ovingham/ovingham_8.jpg",
+   "/images/pr_ovingham/ovingham_9.jpg",
+   "/images/pr_ovingham/ovingham_10.jpg"
   ],
   "pair": {
    "earlier": "/images/pr_ovingham/ovingham_6.jpg",
@@ -267,37 +269,20 @@
   "notes": "The finished photos are near-complete rather than fully finished (pool unfilled, cones at the street gate). ovingham_1 shows a builder banner on the fence.",
   "files": [
    "/images/pr_ovingham/ovingham_15.jpg",
-   "/images/pr_ovingham/ovingham_13.jpg",
-   "/images/pr_ovingham/ovingham_16.jpg",
    "/images/pr_ovingham/ovingham_17.jpg",
    "/images/pr_ovingham/ovingham_1.jpg",
-   "/images/pr_ovingham/ovingham_7.jpg",
-   "/images/pr_ovingham/ovingham_3.jpg",
    "/images/pr_ovingham/ovingham_2.jpg",
-   "/images/pr_ovingham/ovingham_6.jpg",
+   "/images/pr_ovingham/ovingham_3.jpg",
    "/images/pr_ovingham/ovingham_5.jpg",
-   "/images/pr_ovingham/ovingham_4.jpg",
-   "/images/pr_ovingham/ovingham_8.jpg"
+   "/images/pr_ovingham/ovingham_6.jpg",
+   "/images/pr_ovingham/ovingham_12.jpg",
+   "/images/pr_ovingham/ovingham_8.jpg",
+   "/images/pr_ovingham/ovingham_9.jpg",
+   "/images/pr_ovingham/ovingham_10.jpg"
   ],
   "meta": [
    {
     "alt": "Rear of the extension with a two-level glazed facade, pool steps and a stone-faced outbuilding",
-    "kind": "finished-exterior",
-    "stage": null,
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Street frontage of the cottage with a rendered front fence, iron gates and a bare tree, traffic cones behind the gate",
-    "kind": "finished-exterior",
-    "stage": null,
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Pool shell with stone-faced retaining wall and paving beside a corrugated metal fence, water in the bottom",
     "kind": "finished-exterior",
     "stage": null,
     "room": "",
@@ -321,9 +306,9 @@
     "h": 450
    },
    {
-    "alt": "Side of the existing cottage with damaged stonework at the base and the new extension rising behind",
+    "alt": "Rear of the house with scaffolding around a new upper-level frame and bracing planks in the foreground",
     "kind": "in-progress",
-    "stage": "site",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
@@ -337,7 +322,7 @@
     "h": 450
    },
    {
-    "alt": "Rear of the house with scaffolding around a new upper-level frame and bracing planks in the foreground",
+    "alt": "Timber-framed wall wrapped in foil insulation beside a painted brick wall, with building offcuts on the floor",
     "kind": "in-progress",
     "stage": "frame",
     "room": "",
@@ -353,17 +338,9 @@
     "h": 450
    },
    {
-    "alt": "Timber-framed wall wrapped in foil insulation beside a painted brick wall, with building offcuts on the floor",
+    "alt": "Rear of the extension with a ladder, glazed upper level and a ute loaded with tools parked below",
     "kind": "in-progress",
-    "stage": "fitout",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Interior with steel ceiling framing, partly plastered walls and original brickwork exposed",
-    "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "lockup",
     "room": "",
     "w": 740,
     "h": 450
@@ -375,11 +352,28 @@
     "room": "",
     "w": 740,
     "h": 450
+   },
+   {
+    "alt": "Folding glass doors installed across a corner of a room with plasterboard ceiling, ladders and paint tins on the floor",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "w": 740,
+    "h": 450
+   },
+   {
+    "alt": "Folding glass door wall with an exposed brick side wall, plasterboard ceiling and ladders in the room",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "w": 740,
+    "h": 450
    }
   ]
  },
  "highgate": {
   "src": "highgate",
+  "checked": true,
   "hero": "/images/pr_highgate/highgate_18.jpg",
   "order": [
    "/images/pr_highgate/highgate_18.jpg",
@@ -404,12 +398,11 @@
   "stages": [
    "/images/pr_highgate/highgate_1.jpg",
    "/images/pr_highgate/highgate_2.jpg",
-   "/images/pr_highgate/highgate_5.jpg",
-   "/images/pr_highgate/highgate_6.jpg",
-   "/images/pr_highgate/highgate_7.jpg",
+   "/images/pr_highgate/highgate_8.jpg",
    "/images/pr_highgate/highgate_10.jpg",
+   "/images/pr_highgate/highgate_15.jpg",
+   "/images/pr_highgate/highgate_5.jpg",
    "/images/pr_highgate/highgate_11.jpg",
-   "/images/pr_highgate/highgate_13.jpg",
    "/images/pr_highgate/highgate_14.jpg"
   ],
   "pair": null,
@@ -435,12 +428,11 @@
    "/images/pr_highgate/highgate_37.jpg",
    "/images/pr_highgate/highgate_1.jpg",
    "/images/pr_highgate/highgate_2.jpg",
-   "/images/pr_highgate/highgate_5.jpg",
-   "/images/pr_highgate/highgate_6.jpg",
-   "/images/pr_highgate/highgate_7.jpg",
+   "/images/pr_highgate/highgate_8.jpg",
    "/images/pr_highgate/highgate_10.jpg",
+   "/images/pr_highgate/highgate_15.jpg",
+   "/images/pr_highgate/highgate_5.jpg",
    "/images/pr_highgate/highgate_11.jpg",
-   "/images/pr_highgate/highgate_13.jpg",
    "/images/pr_highgate/highgate_14.jpg"
   ],
   "meta": [
@@ -605,25 +597,9 @@
     "h": 450
    },
    {
-    "alt": "Dark brick walls rising inside scaffolding, with a cement mixer, bricks and tools on the ground",
+    "alt": "Inside an unlined timber frame with a steel beam, roof trusses and stacked building materials, with a truck outside",
     "kind": "in-progress",
     "stage": "frame",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Two-storey dark brick wall seen along its length with scaffolding at both levels",
-    "kind": "in-progress",
-    "stage": "lockup",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Worker fitting a window opening in a wall clad in dark sheeting, with scaffolding beyond",
-    "kind": "in-progress",
-    "stage": "lockup",
     "room": "",
     "w": 740,
     "h": 450
@@ -637,15 +613,23 @@
     "h": 450
    },
    {
-    "alt": "Room lined with plasterboard and sliding glass doors, with building materials on the floor",
+    "alt": "Two dark brick townhouses with scaffolding and a sandy yard in front, stacked pipes at left",
     "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "lockup",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Laundry joinery being installed with an unfinished benchtop and a doorway to a hallway",
+    "alt": "Dark brick walls rising inside scaffolding, with a cement mixer, bricks and tools on the ground",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "w": 740,
+    "h": 450
+   },
+   {
+    "alt": "Room lined with plasterboard and sliding glass doors, with building materials on the floor",
     "kind": "in-progress",
     "stage": "fitout",
     "room": "",
@@ -664,6 +648,7 @@
  },
  "mile-end": {
   "src": "mileend",
+  "checked": false,
   "hero": "/images/pr_mileend/mileend_1.jpg",
   "order": [
    "/images/pr_mileend/mileend_3.jpg",
@@ -857,6 +842,7 @@
  },
  "parkside": {
   "src": "parkside",
+  "checked": false,
   "hero": "/images/pr_parkside/parkside_3.jpg",
   "order": [
    "/images/pr_parkside/parkside_3.jpg",
@@ -1050,15 +1036,16 @@
  },
  "torrensville": {
   "src": "torrensville",
+  "checked": false,
   "hero": "/images/pr_torrensville/torrensville_35.jpg",
   "order": [],
   "stages": [
    "/images/pr_torrensville/torrensville_1.jpg",
    "/images/pr_torrensville/torrensville_7.jpg",
    "/images/pr_torrensville/torrensville_14.jpg",
-   "/images/pr_torrensville/torrensville_24.jpg",
-   "/images/pr_torrensville/torrensville_26.jpg",
-   "/images/pr_torrensville/torrensville_28.jpg"
+   "/images/pr_torrensville/torrensville_18.jpg",
+   "/images/pr_torrensville/torrensville_21.jpg",
+   "/images/pr_torrensville/torrensville_23.jpg"
   ],
   "pair": null,
   "notes": "Only in-progress photos: the original house before work, demolition of the rear, slab reinforcing and then internal fit-out. No finished photos, so no gallery order or pair. torrensville_33 shows a worker (cap and sunglasses, not identifiable).",
@@ -1067,9 +1054,9 @@
    "/images/pr_torrensville/torrensville_1.jpg",
    "/images/pr_torrensville/torrensville_7.jpg",
    "/images/pr_torrensville/torrensville_14.jpg",
-   "/images/pr_torrensville/torrensville_24.jpg",
-   "/images/pr_torrensville/torrensville_26.jpg",
-   "/images/pr_torrensville/torrensville_28.jpg"
+   "/images/pr_torrensville/torrensville_18.jpg",
+   "/images/pr_torrensville/torrensville_21.jpg",
+   "/images/pr_torrensville/torrensville_23.jpg"
   ],
   "meta": [
    {
@@ -1105,25 +1092,25 @@
     "h": 450
    },
    {
-    "alt": "Room with white plastered walls and a red brick feature wall, with drop sheets on the floor and a hallway beyond.",
+    "alt": "Bare back yard with a weathered timber shed on the left and the house in the distance.",
     "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Room with white panelled walls and black-framed windows, with drop sheets, a trestle and paint tin on the floor.",
+    "alt": "Rear of the house with the roof and walls removed, a pile of rubble and orange membrane in the foundation trench.",
     "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Room with a bay window, new plaster ceiling and walls, and stacked boxes of tiles on the floor.",
+    "alt": "Reinforcing in a foundation trench in front of the opened-up rear of the house and a pile of rubble.",
     "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
@@ -1132,6 +1119,7 @@
  },
  "goodwood-new-home": {
   "src": "goodwood_as",
+  "checked": false,
   "hero": "/images/pr_goodwood2/goodwood_27.jpg",
   "order": [
    "/images/pr_goodwood2/goodwood_28.jpg",
@@ -1157,15 +1145,9 @@
    "/images/pr_goodwood2/goodwood_1.jpg",
    "/images/pr_goodwood2/goodwood_2.jpg",
    "/images/pr_goodwood2/goodwood_3.jpg",
-   "/images/pr_goodwood2/goodwood_9.jpg",
-   "/images/pr_goodwood2/goodwood_10.jpg",
-   "/images/pr_goodwood2/goodwood_12.jpg",
-   "/images/pr_goodwood2/goodwood_16.jpg",
-   "/images/pr_goodwood2/goodwood_17a.jpg",
-   "/images/pr_goodwood2/goodwood_21.jpg",
-   "/images/pr_goodwood2/goodwood_18.jpg",
-   "/images/pr_goodwood2/goodwood_19.jpg",
-   "/images/pr_goodwood2/goodwood_20.jpg"
+   "/images/pr_goodwood2/goodwood_4.jpg",
+   "/images/pr_goodwood2/goodwood_5.jpg",
+   "/images/pr_goodwood2/goodwood_7.jpg"
   ],
   "pair": {
    "earlier": "/images/pr_goodwood2/goodwood_21.jpg",
@@ -1195,19 +1177,14 @@
    "/images/pr_goodwood2/goodwood_1.jpg",
    "/images/pr_goodwood2/goodwood_2.jpg",
    "/images/pr_goodwood2/goodwood_3.jpg",
-   "/images/pr_goodwood2/goodwood_9.jpg",
-   "/images/pr_goodwood2/goodwood_10.jpg",
-   "/images/pr_goodwood2/goodwood_12.jpg",
-   "/images/pr_goodwood2/goodwood_16.jpg",
-   "/images/pr_goodwood2/goodwood_17a.jpg",
-   "/images/pr_goodwood2/goodwood_21.jpg",
-   "/images/pr_goodwood2/goodwood_18.jpg",
-   "/images/pr_goodwood2/goodwood_19.jpg",
-   "/images/pr_goodwood2/goodwood_20.jpg"
+   "/images/pr_goodwood2/goodwood_4.jpg",
+   "/images/pr_goodwood2/goodwood_5.jpg",
+   "/images/pr_goodwood2/goodwood_7.jpg",
+   "/images/pr_goodwood2/goodwood_21.jpg"
   ],
   "meta": [
    {
-    "alt": "Single-storey front with sandstone-look walls, timber doors, a gable window and a grey roof over the garage.",
+    "alt": "Single-storey front with stone walls, timber doors, a gable window and a grey roof over the garage.",
     "kind": "finished-exterior",
     "stage": "",
     "room": "",
@@ -1223,7 +1200,7 @@
     "h": 450
    },
    {
-    "alt": "Angled view of the front with sandstone-look walls, a gable window and timber doors, a car parked on the left.",
+    "alt": "Angled view of the front with stone walls, a gable window and timber doors, a car parked on the left.",
     "kind": "finished-exterior",
     "stage": "",
     "room": "",
@@ -1231,7 +1208,7 @@
     "h": 450
    },
    {
-    "alt": "Front entry with a tall timber door, glass doors and a timber-lined eave over sandstone-look walls.",
+    "alt": "Front entry with a tall timber door, glass doors and a timber-lined eave over stone walls.",
     "kind": "finished-exterior",
     "stage": "",
     "room": "",
@@ -1239,7 +1216,7 @@
     "h": 450
    },
    {
-    "alt": "Entry with sandstone-look walls, a timber door and glass doors under a timber-lined eave.",
+    "alt": "Entry with stone walls, a timber door and glass doors under a timber-lined eave.",
     "kind": "finished-exterior",
     "stage": "",
     "room": "",
@@ -1375,74 +1352,34 @@
     "h": 450
    },
    {
-    "alt": "Grey steel frame standing on the slab across the block, a ute in the foreground.",
+    "alt": "Overhead view of steel reinforcement mesh and pipework laid out ready for the slab.",
     "kind": "in-progress",
-    "stage": "frame",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Steel posts and beams with stacked brickwork going up on the slab beside the neighbouring house.",
+    "alt": "Concrete slab poured with a boom pump beside it and workers on a suburban site.",
     "kind": "in-progress",
-    "stage": "frame",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Brick walls with door and window openings under construction, seen from above with a neighbouring roof behind.",
+    "alt": "Long narrow excavation with steel reinforcement for a pool shell, fences and sheds either side.",
     "kind": "in-progress",
-    "stage": "frame",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Two-storey brick house with grey roof on, scaffolding up and a yellow skid steer parked in front.",
+    "alt": "Front of the single-storey house with stone walls, garage door and gable roof on, bare sandy yard in front.",
     "kind": "in-progress",
     "stage": "lockup",
     "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Rear of the brick house with boxed eaves, windows taped and the concrete pool shell in the foreground.",
-    "kind": "in-progress",
-    "stage": "lockup",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Front of the single-storey house with stone-look walls, garage door and gable roof on, bare sandy yard in front.",
-    "kind": "in-progress",
-    "stage": "lockup",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Interior corner with pink insulation batts fitted between wall studs under the windows and ceiling.",
-    "kind": "in-progress",
-    "stage": "fitout",
-    "room": "living",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Interior walls lined with plasterboard and set with joint compound, with a doorway at the centre.",
-    "kind": "in-progress",
-    "stage": "fitout",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Open room with ceiling lining in place and white cabinet carcasses stacked in the middle of the floor.",
-    "kind": "in-progress",
-    "stage": "fitout",
-    "room": "kitchen",
     "w": 740,
     "h": 450
    }
@@ -1450,6 +1387,7 @@
  },
  "goodwood-renovation": {
   "src": "angas-goodwood",
+  "checked": false,
   "hero": "/images/pr_angas-goodwood/image-(22).jpg",
   "order": [
    "/images/pr_angas-goodwood/image-(22).jpg",
@@ -1643,6 +1581,7 @@
  },
  "millswood": {
   "src": "millswood",
+  "checked": false,
   "hero": "/images/pr_millswood/millswood_7.jpg",
   "order": [
    "/images/pr_millswood/millswood_8.jpg",
@@ -1831,6 +1770,7 @@
  },
  "unley": {
   "src": "unley",
+  "checked": false,
   "hero": "/images/pr_unley/unley_7.jpg",
   "order": [
    "/images/pr_unley/unley_7.jpg",
@@ -1954,16 +1894,16 @@
  },
  "st-peters-renovation": {
   "src": "secstpeters",
+  "checked": false,
   "hero": "/images/pr_secstpeters/secstpeters_16.jpg",
   "order": [],
   "stages": [
    "/images/pr_secstpeters/secstpeters_1.jpg",
    "/images/pr_secstpeters/secstpeters_2.jpg",
    "/images/pr_secstpeters/secstpeters_5.jpg",
-   "/images/pr_secstpeters/secstpeters_15.jpg",
-   "/images/pr_secstpeters/secstpeters_16.jpg",
-   "/images/pr_secstpeters/secstpeters_8.jpg",
-   "/images/pr_secstpeters/secstpeters_9.jpg"
+   "/images/pr_secstpeters/secstpeters_6.jpg",
+   "/images/pr_secstpeters/secstpeters_10.jpg",
+   "/images/pr_secstpeters/secstpeters_11.jpg"
   ],
   "pair": null,
   "notes": "Only in-progress photos: strip-out of the original house, pool shell and timber frame for the new extension. No finished photos, so no gallery order or pair. secstpeters_1 shows the existing house before work. secstpeters_3 and 7 are near-duplicates of 2 and 6.",
@@ -1972,9 +1912,9 @@
    "/images/pr_secstpeters/secstpeters_1.jpg",
    "/images/pr_secstpeters/secstpeters_2.jpg",
    "/images/pr_secstpeters/secstpeters_5.jpg",
-   "/images/pr_secstpeters/secstpeters_15.jpg",
-   "/images/pr_secstpeters/secstpeters_8.jpg",
-   "/images/pr_secstpeters/secstpeters_9.jpg"
+   "/images/pr_secstpeters/secstpeters_6.jpg",
+   "/images/pr_secstpeters/secstpeters_10.jpg",
+   "/images/pr_secstpeters/secstpeters_11.jpg"
   ],
   "meta": [
    {
@@ -2010,25 +1950,25 @@
     "h": 450
    },
    {
-    "alt": "Timber roof and wall framing on the extension with sheeted walls, steel posts and scaffolding in the sun.",
+    "alt": "Room with a chandelier and wall linings stripped back, an opening in the wall and a ladder on a dusty floor.",
     "kind": "in-progress",
-    "stage": "frame",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Room lined with plasterboard with patched joints, a doorway at the back and insulation batts on the floor.",
+    "alt": "Large room with a gap in the ceiling, long glazed doors, timber bench and tools on a bare floor.",
     "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Small room lined with plasterboard in grey, with a ladder in the corner and a number written on the wall.",
+    "alt": "Wide room covered in plastic sheeting with timber lengths, a stripped kitchen area and a long run of windows.",
     "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
@@ -2037,17 +1977,16 @@
  },
  "hyde-park": {
   "src": "hydepark",
+  "checked": false,
   "hero": "/images/pr_hydepark/hydepark_14.jpg",
   "order": [],
   "stages": [
    "/images/pr_hydepark/hydepark_1.jpg",
    "/images/pr_hydepark/hydepark_2.jpg",
    "/images/pr_hydepark/hydepark_3.jpg",
-   "/images/pr_hydepark/hydepark_14.jpg",
-   "/images/pr_hydepark/hydepark_15.jpg",
-   "/images/pr_hydepark/hydepark_16.jpg",
-   "/images/pr_hydepark/hydepark_17.jpg",
-   "/images/pr_hydepark/hydepark_18.jpg"
+   "/images/pr_hydepark/hydepark_4.jpg",
+   "/images/pr_hydepark/hydepark_12.jpg",
+   "/images/pr_hydepark/hydepark_13.jpg"
   ],
   "pair": null,
   "notes": "No finished photos at all: this project has only before and in-progress photos. Several images carry a red BEFORE overlay in the corner. hydepark_23 shows two workers (one face visible). No pair because nothing shows the finished state.",
@@ -2056,10 +1995,9 @@
    "/images/pr_hydepark/hydepark_1.jpg",
    "/images/pr_hydepark/hydepark_2.jpg",
    "/images/pr_hydepark/hydepark_3.jpg",
-   "/images/pr_hydepark/hydepark_15.jpg",
-   "/images/pr_hydepark/hydepark_16.jpg",
-   "/images/pr_hydepark/hydepark_17.jpg",
-   "/images/pr_hydepark/hydepark_18.jpg"
+   "/images/pr_hydepark/hydepark_4.jpg",
+   "/images/pr_hydepark/hydepark_12.jpg",
+   "/images/pr_hydepark/hydepark_13.jpg"
   ],
   "meta": [
    {
@@ -2079,7 +2017,7 @@
     "h": 450
    },
    {
-    "alt": "Front of the original bungalow with stone porch and a garden bed with a mound of dirt, marked as before.",
+    "alt": "Front of the original bungalow with stone porch and a garden bed with a mound of dirt.",
     "kind": "in-progress",
     "stage": "site",
     "room": "",
@@ -2087,7 +2025,7 @@
     "h": 450
    },
    {
-    "alt": "Rear of the existing house over a pool with a black fence and paved surround, marked as before.",
+    "alt": "Rear of the existing house over a pool with a black fence and paved surround.",
     "kind": "in-progress",
     "stage": "site",
     "room": "",
@@ -2095,34 +2033,26 @@
     "h": 450
    },
    {
-    "alt": "Side view of the new verandah roof frame, reinforcement and the pool with a wall and trees behind.",
+    "alt": "Backyard lawn and fenced pool with the existing two-storey rear of the house behind.",
     "kind": "in-progress",
-    "stage": "frame",
+    "stage": "site",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Wide room with plasterboard ceiling and new floor tiles, windows at the far end and a hallway to the right.",
+    "alt": "Wide view of the existing open dining and living space with tiled floor.",
     "kind": "in-progress",
-    "stage": "fitout",
-    "room": "living",
+    "stage": "site",
+    "room": "dining",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Large room with new tiled floor, plasterboard walls and ceiling still to be painted.",
+    "alt": "Rear of the house with pool being rebuilt, a steel reinforcement slab around it and a gazebo beyond.",
     "kind": "in-progress",
-    "stage": "fitout",
-    "room": "living",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Open living space with new floor tiles, plasterboard linings and a staircase at the far end.",
-    "kind": "in-progress",
-    "stage": "fitout",
-    "room": "living",
+    "stage": "site",
+    "room": "",
     "w": 740,
     "h": 450
    }
@@ -2130,6 +2060,7 @@
  },
  "tranmere": {
   "src": "tranmere",
+  "checked": false,
   "hero": "/images/pr_tranmere/image-1.jpg",
   "order": [
    "/images/pr_tranmere/image-8.jpg",
@@ -2223,6 +2154,7 @@
  },
  "hawthorn": {
   "src": "hawthorn",
+  "checked": false,
   "hero": "/images/pr_hawthorn/hawthorn_2.jpg",
   "order": [
    "/images/pr_hawthorn/hawthorn_1.jpg",
@@ -2346,6 +2278,7 @@
  },
  "golfview-heights": {
   "src": "golfviewheights",
+  "checked": false,
   "hero": "/images/pr_other/golfviewheights_7.jpg",
   "order": [
    "/images/pr_other/golfviewheights_7.jpg",
@@ -2377,7 +2310,7 @@
   ],
   "meta": [
    {
-    "alt": "Two-storey house with stone-look lower level, balcony, three garage doors and landscaped rock garden on the street",
+    "alt": "Two-storey house with stone lower level, balcony, three garage doors and landscaped rock garden on the street",
     "kind": "finished-exterior",
     "stage": null,
     "room": "",
@@ -2385,7 +2318,7 @@
     "h": 450
    },
    {
-    "alt": "Two-storey house front with stone-look cladding, arched windows, a balcony with glass balustrade and three garage doors",
+    "alt": "Two-storey house front with stone cladding, arched windows, a balcony with glass balustrade and three garage doors",
     "kind": "finished-exterior",
     "stage": null,
     "room": "",
@@ -2393,7 +2326,7 @@
     "h": 450
    },
    {
-    "alt": "Two-storey front with stone-look cladding and three garage doors, with a skip bin and new driveway in front",
+    "alt": "Two-storey front with stone cladding and three garage doors, with a skip bin and new driveway in front",
     "kind": "finished-exterior",
     "stage": null,
     "room": "",
@@ -2401,7 +2334,7 @@
     "h": 450
    },
    {
-    "alt": "Existing single-storey house with a carport, entry steps and a sloping driveway, marked as the before photo",
+    "alt": "Existing single-storey house with a carport, entry steps and a sloping driveway",
     "kind": "in-progress",
     "stage": "site",
     "room": "",
@@ -2409,7 +2342,7 @@
     "h": 449
    },
    {
-    "alt": "Existing single-storey house with a double garage and stone-faced piers before the extension, marked as before",
+    "alt": "Existing single-storey house with a double garage and stone-faced piers before the extension",
     "kind": "in-progress",
     "stage": "site",
     "room": "",
@@ -2444,6 +2377,7 @@
  },
  "banksia-park": {
   "src": "banksiapark",
+  "checked": false,
   "hero": "/images/pr_banksiapark/banksiapark_2.jpg",
   "order": [],
   "stages": [
@@ -2487,19 +2421,24 @@
  },
  "bridgewater": {
   "src": "bridgewater",
+  "checked": false,
   "hero": "/images/pr_bridgewater/bridgewater_1.jpg",
   "order": [],
   "stages": [
    "/images/pr_bridgewater/bridgewater_5.jpg",
    "/images/pr_bridgewater/bridgewater_1.jpg",
-   "/images/pr_bridgewater/bridgewater_2.jpg"
+   "/images/pr_bridgewater/bridgewater_2.jpg",
+   "/images/pr_bridgewater/bridgewater_6.jpg",
+   "/images/pr_bridgewater/bridgewater_4.jpg"
   ],
   "pair": null,
   "notes": "Only in-progress photos (slab and footing stage beside the existing stone and brick cottage); no finished photos, so no gallery order or pair. Workers are small and not identifiable.",
   "files": [
    "/images/pr_bridgewater/bridgewater_1.jpg",
    "/images/pr_bridgewater/bridgewater_5.jpg",
-   "/images/pr_bridgewater/bridgewater_2.jpg"
+   "/images/pr_bridgewater/bridgewater_2.jpg",
+   "/images/pr_bridgewater/bridgewater_6.jpg",
+   "/images/pr_bridgewater/bridgewater_4.jpg"
   ],
   "meta": [
    {
@@ -2525,11 +2464,28 @@
     "room": "",
     "w": 740,
     "h": 450
+   },
+   {
+    "alt": "Slab reinforcing and a pump hose beside the cottage wall, looking across the yard to a neighbouring shed.",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "w": 740,
+    "h": 450
+   },
+   {
+    "alt": "Slab reinforcing beside the brick wall of the cottage, with a concrete pump hose and a worker at the far end.",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "w": 740,
+    "h": 450
    }
   ]
  },
  "royston-park": {
   "src": "roystonpark",
+  "checked": false,
   "hero": "/images/pr_roystonpark/roystonpark_5.jpg",
   "order": [
    "/images/pr_roystonpark/roystonpark_2.jpg",
@@ -2624,6 +2580,7 @@
  },
  "payneham": {
   "src": "payneham",
+  "checked": false,
   "hero": "/images/pr_payneham/payneham_1.jpg",
   "order": [
    "/images/pr_payneham/payneham_1.jpg",
@@ -2797,6 +2754,7 @@
  },
  "northgate": {
   "src": "northgate",
+  "checked": false,
   "hero": "/images/pr_northgate/northgate_22.jpg",
   "order": [
    "/images/pr_northgate/northgate_22.jpg",
@@ -2819,8 +2777,9 @@
    "/images/pr_northgate/northgate_1.jpg",
    "/images/pr_northgate/northgate_2.jpg",
    "/images/pr_northgate/northgate_5.jpg",
-   "/images/pr_northgate/northgate_7.jpg",
-   "/images/pr_northgate/northgate_18.jpg"
+   "/images/pr_northgate/northgate_4.jpg",
+   "/images/pr_northgate/northgate_6.jpg",
+   "/images/pr_northgate/northgate_7.jpg"
   ],
   "pair": {
    "earlier": "/images/pr_northgate/northgate_7.jpg",
@@ -2847,8 +2806,9 @@
    "/images/pr_northgate/northgate_1.jpg",
    "/images/pr_northgate/northgate_2.jpg",
    "/images/pr_northgate/northgate_5.jpg",
-   "/images/pr_northgate/northgate_7.jpg",
-   "/images/pr_northgate/northgate_18.jpg"
+   "/images/pr_northgate/northgate_4.jpg",
+   "/images/pr_northgate/northgate_6.jpg",
+   "/images/pr_northgate/northgate_7.jpg"
   ],
   "meta": [
    {
@@ -2996,17 +2956,25 @@
     "h": 450
    },
    {
-    "alt": "Two-storey rendered house with a curved balcony, with a boom lift and a painter on a ladder at the front.",
+    "alt": "Timber roof framing over a wet concrete slab, seen through the front opening of the house.",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Upper-level balcony room with a timber ceiling and glazed walls, a painter on a ladder and drop sheets on the floor.",
+    "alt": "Roof trusses and timber wall frames inside the house, with water pooled on the slab below.",
     "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "frame",
+    "room": "",
+    "w": 740,
+    "h": 450
+   },
+   {
+    "alt": "Two-storey rendered house with a curved balcony, with a boom lift and a painter on a ladder at the front.",
+    "kind": "in-progress",
+    "stage": "lockup",
     "room": "",
     "w": 740,
     "h": 450
@@ -3015,6 +2983,7 @@
  },
  "glenunga": {
   "src": "glenunga",
+  "checked": false,
   "hero": "/images/pr_glenunga/glenunga_1.jpg",
   "order": [
    "/images/pr_glenunga/glenunga_1.jpg",
@@ -3118,6 +3087,7 @@
  },
  "rostrevor": {
   "src": "rostrevor",
+  "checked": false,
   "hero": "/images/pr_rostrevor/rostrevor_1.jpg",
   "order": [
    "/images/pr_rostrevor/rostrevor_10.jpg",
@@ -3136,7 +3106,8 @@
    "/images/pr_rostrevor/rostrevor_3.jpg",
    "/images/pr_rostrevor/rostrevor_8.jpg",
    "/images/pr_rostrevor/rostrevor_6.jpg",
-   "/images/pr_rostrevor/rostrevor_5.jpg"
+   "/images/pr_rostrevor/rostrevor_5.jpg",
+   "/images/pr_rostrevor/rostrevor_7.jpg"
   ],
   "pair": {
    "earlier": "/images/pr_rostrevor/rostrevor_5.jpg",
@@ -3159,11 +3130,12 @@
    "/images/pr_rostrevor/rostrevor_3.jpg",
    "/images/pr_rostrevor/rostrevor_8.jpg",
    "/images/pr_rostrevor/rostrevor_6.jpg",
-   "/images/pr_rostrevor/rostrevor_5.jpg"
+   "/images/pr_rostrevor/rostrevor_5.jpg",
+   "/images/pr_rostrevor/rostrevor_7.jpg"
   ],
   "meta": [
    {
-    "alt": "Front of a single-storey townhouse with dark brick, pale stone-look cladding, a tall brick pier and a timber entry door",
+    "alt": "Front of a single-storey townhouse with dark brick, pale stone cladding, a tall brick pier and a timber entry door",
     "kind": "finished-exterior",
     "stage": null,
     "room": "",
@@ -3179,7 +3151,7 @@
     "h": 450
    },
    {
-    "alt": "Side corner of a townhouse with dark brick, stone-look cladding, a skillion roof and a new concrete path",
+    "alt": "Side corner of a townhouse with dark brick, stone cladding, a skillion roof and a new concrete path",
     "kind": "finished-exterior",
     "stage": null,
     "room": "",
@@ -3227,7 +3199,7 @@
     "h": 450
    },
    {
-    "alt": "Bathroom with floating white vanity, glass shower screen, toilet and grey stone-look tiles",
+    "alt": "Bathroom with floating white vanity, glass shower screen, toilet and grey stone tiles",
     "kind": "finished-interior",
     "stage": null,
     "room": "bathroom",
@@ -3243,7 +3215,7 @@
     "h": 450
    },
    {
-    "alt": "Front of a townhouse with dark brick and stone-look cladding, windows still covered in plastic and the path unfinished",
+    "alt": "Front of a townhouse with dark brick and stone cladding, windows still covered in plastic and the path unfinished",
     "kind": "in-progress",
     "stage": "lockup",
     "room": "",
@@ -3281,11 +3253,20 @@
     "room": "",
     "w": 740,
     "h": 450
+   },
+   {
+    "alt": "Kitchen cabinets and benchtop installed, with the island bench covered in protective sheeting",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "w": 740,
+    "h": 450
    }
   ]
  },
  "glenelg": {
   "src": "glenelg",
+  "checked": false,
   "hero": "/images/pr_glenelg/glenelg_16.jpg",
   "order": [
    "/images/pr_glenelg/glenelg_16.jpg",
@@ -3301,9 +3282,9 @@
    "/images/pr_glenelg/glenelg_3.jpg",
    "/images/pr_glenelg/glenelg_2.jpg",
    "/images/pr_glenelg/glenelg_1.jpg",
-   "/images/pr_glenelg/glenelg_14.jpg",
-   "/images/pr_glenelg/glenelg_7.jpg",
-   "/images/pr_glenelg/glenelg_8.jpg"
+   "/images/pr_glenelg/glenelg_6.jpg",
+   "/images/pr_glenelg/glenelg_4.jpg",
+   "/images/pr_glenelg/glenelg_9.jpg"
   ],
   "pair": null,
   "notes": "glenelg_10 shows developer and builder signage boards and glenelg_17 shows a house number plate with a street name, so both are left out of the gallery. Finished photos are dusk or flash-lit.",
@@ -3319,9 +3300,9 @@
    "/images/pr_glenelg/glenelg_3.jpg",
    "/images/pr_glenelg/glenelg_2.jpg",
    "/images/pr_glenelg/glenelg_1.jpg",
-   "/images/pr_glenelg/glenelg_14.jpg",
-   "/images/pr_glenelg/glenelg_7.jpg",
-   "/images/pr_glenelg/glenelg_8.jpg"
+   "/images/pr_glenelg/glenelg_6.jpg",
+   "/images/pr_glenelg/glenelg_4.jpg",
+   "/images/pr_glenelg/glenelg_9.jpg"
   ],
   "meta": [
    {
@@ -3373,7 +3354,7 @@
     "h": 450
    },
    {
-    "alt": "Bathroom with a wide mirror, floating white vanity and dark stone-look wall tiles",
+    "alt": "Bathroom with a wide mirror, floating white vanity and dark stone wall tiles",
     "kind": "finished-interior",
     "stage": null,
     "room": "bathroom",
@@ -3413,25 +3394,25 @@
     "h": 450
    },
    {
-    "alt": "Two-storey frontage with scaffolding and a low brick wall, builder's sign on the fence and a ute parked in front",
+    "alt": "Crane lowering a load beside a timber-framed building, with road-closed signs and traffic cones in the street",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Rear lane view of a two-storey building with scaffolding, brick and grey sheeted walls",
+    "alt": "Inside a framed three-storey building with roof trusses, brick wall and timber bracing on a concrete floor",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Upper-level balcony with scaffolding and a blue waterproof membrane, overlooking the street and neighbouring houses",
+    "alt": "Inside a long unlined ground floor with exposed roof trusses, brick wall and timber lengths stacked at left",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
@@ -3440,15 +3421,16 @@
  },
  "cross-road-highgate": {
   "src": "cross_rd_highgate",
+  "checked": false,
   "hero": "/images/pr_crossroad/crossroad_9.jpg",
   "order": [],
   "stages": [
    "/images/pr_crossroad/crossroad_1.jpg",
    "/images/pr_crossroad/crossroad_5.jpg",
    "/images/pr_crossroad/crossroad_7.jpg",
-   "/images/pr_crossroad/crossroad_13.jpg",
-   "/images/pr_crossroad/crossroad_15.jpg",
-   "/images/pr_crossroad/crossroad_20.jpg"
+   "/images/pr_crossroad/crossroad_9.jpg",
+   "/images/pr_crossroad/crossroad_12.jpg",
+   "/images/pr_crossroad/crossroad_6.jpg"
   ],
   "pair": null,
   "notes": "Only in-progress photos, no finished images; hero is the best in-progress frame shot. crossroad_16 shows a van with company lettering; crossroad_10 shows a worker from behind.",
@@ -3457,9 +3439,8 @@
    "/images/pr_crossroad/crossroad_1.jpg",
    "/images/pr_crossroad/crossroad_5.jpg",
    "/images/pr_crossroad/crossroad_7.jpg",
-   "/images/pr_crossroad/crossroad_13.jpg",
-   "/images/pr_crossroad/crossroad_15.jpg",
-   "/images/pr_crossroad/crossroad_20.jpg"
+   "/images/pr_crossroad/crossroad_12.jpg",
+   "/images/pr_crossroad/crossroad_6.jpg"
   ],
   "meta": [
    {
@@ -3495,25 +3476,17 @@
     "h": 450
    },
    {
-    "alt": "Row of townhouses with scaffolding and blue sheeting behind site fencing, a vehicle parked on the dirt lane",
+    "alt": "Wide view of several timber-framed townhouses with steel beams standing on dirt, long shadows across the site",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Upper storey clad in white with small windows above a timber-framed lower level, pipes and timber on the ground",
+    "alt": "Timber-framed townhouses with steel posts and beams on a muddy site, scaffolding in the background",
     "kind": "in-progress",
-    "stage": "lockup",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Rear of a townhouse with a white clad upper storey and a framed ground floor, building offcuts on the ground",
-    "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
@@ -3522,6 +3495,7 @@
  },
  "newton": {
   "src": "newton",
+  "checked": false,
   "hero": "/images/pr_newton/newton_35.jpg",
   "order": [
    "/images/pr_newton/newton_35.jpg",
@@ -3531,12 +3505,9 @@
    "/images/pr_newton/newton_3.jpg",
    "/images/pr_newton/newton_6.jpg",
    "/images/pr_newton/newton_5.jpg",
-   "/images/pr_newton/newton_19.jpg",
-   "/images/pr_newton/newton_16.jpg",
-   "/images/pr_newton/newton_20.jpg",
-   "/images/pr_newton/newton_22.jpg",
-   "/images/pr_newton/newton_24.jpg",
-   "/images/pr_newton/newton_28.jpg"
+   "/images/pr_newton/newton_12.jpg",
+   "/images/pr_newton/newton_7.jpg",
+   "/images/pr_newton/newton_9.jpg"
   ],
   "pair": null,
   "notes": "Mix of two renders (newton_1 and newton_2, the latter a stock-style bedroom with a couple), many construction photos and two finished-exterior photos only; newton_34 also shows a frame at the back. Workers' faces are visible in 10 and 31 (partly). Builder's truck shows a company name in 16 and 21.",
@@ -3546,12 +3517,9 @@
    "/images/pr_newton/newton_3.jpg",
    "/images/pr_newton/newton_6.jpg",
    "/images/pr_newton/newton_5.jpg",
-   "/images/pr_newton/newton_19.jpg",
-   "/images/pr_newton/newton_16.jpg",
-   "/images/pr_newton/newton_20.jpg",
-   "/images/pr_newton/newton_22.jpg",
-   "/images/pr_newton/newton_24.jpg",
-   "/images/pr_newton/newton_28.jpg"
+   "/images/pr_newton/newton_12.jpg",
+   "/images/pr_newton/newton_7.jpg",
+   "/images/pr_newton/newton_9.jpg"
   ],
   "meta": [
    {
@@ -3595,50 +3563,26 @@
     "h": 450
    },
    {
-    "alt": "Row of two-storey townhouses clad and scaffolded, with trucks and a mound of dirt in front.",
+    "alt": "Two-storey townhouses with grey brickwork, scaffolding and roof framing, pallets of materials in front.",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Two-storey townhouses with scaffolding and blue wrap on upper walls, builder's trucks in the foreground.",
+    "alt": "Inside a timber frame with roof trusses overhead and two workers walking between wall studs.",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Townhouses with scaffolding at the back, an excavator and a loader working on heaps of soil in front.",
+    "alt": "Timber roof frame seen from the scaffold platform with planks and tools in the foreground.",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Empty living room with plasterboard walls and ceiling, a bare slab floor and glass doors at the end.",
-    "kind": "in-progress",
-    "stage": "fitout",
-    "room": "living",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Room with plasterboard walls, a window and a half-height wall at the left, bare floor.",
-    "kind": "in-progress",
-    "stage": "fitout",
-    "room": "bedroom",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Room with plasterboard walls and ceiling lined and a window at the right, bare floor.",
-    "kind": "in-progress",
-    "stage": "fitout",
-    "room": "living",
     "w": 740,
     "h": 450
    }
@@ -3646,6 +3590,7 @@
  },
  "ashford": {
   "src": "ashford",
+  "checked": false,
   "hero": "/images/pr_ashford/ashford_21.jpg",
   "order": [
    "/images/pr_ashford/ashford_21.jpg",
@@ -3670,7 +3615,9 @@
   "stages": [
    "/images/pr_ashford/ashford_1.jpg",
    "/images/pr_ashford/ashford_6.jpg",
-   "/images/pr_ashford/ashford_7.jpg"
+   "/images/pr_ashford/ashford_7.jpg",
+   "/images/pr_ashford/ashford_11.jpg",
+   "/images/pr_ashford/ashford_12.jpg"
   ],
   "pair": null,
   "notes": "Mostly site works photographed with workers and machinery (no face-level portraits), then finished interiors. Three-home development; photos appear to show one of the homes. Signage in ashford_10 is a distant builder sign.",
@@ -3695,7 +3642,9 @@
    "/images/pr_ashford/ashford_36.jpg",
    "/images/pr_ashford/ashford_1.jpg",
    "/images/pr_ashford/ashford_6.jpg",
-   "/images/pr_ashford/ashford_7.jpg"
+   "/images/pr_ashford/ashford_7.jpg",
+   "/images/pr_ashford/ashford_11.jpg",
+   "/images/pr_ashford/ashford_12.jpg"
   ],
   "meta": [
    {
@@ -3865,11 +3814,28 @@
     "room": "",
     "w": 740,
     "h": 450
+   },
+   {
+    "alt": "Large concrete slab poured across the site, with excavators and a roller in the background",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "w": 740,
+    "h": 450
+   },
+   {
+    "alt": "Concrete slab with stepped edges and survey stakes, machinery waiting beyond the boundary fence",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "w": 740,
+    "h": 450
    }
   ]
  },
  "klemzig": {
   "src": "klemzig",
+  "checked": false,
   "hero": "/images/pr_klemzig/klemzig_11.jpg",
   "order": [
    "/images/pr_klemzig/klemzig_11.jpg"
@@ -3878,10 +3844,9 @@
    "/images/pr_klemzig/klemzig_1.jpg",
    "/images/pr_klemzig/klemzig_1.1.jpg",
    "/images/pr_klemzig/klemzig_1.2.jpg",
-   "/images/pr_klemzig/klemzig_6.jpg",
-   "/images/pr_klemzig/klemzig_7.jpg",
-   "/images/pr_klemzig/klemzig_8.jpg",
-   "/images/pr_klemzig/klemzig_12.jpg"
+   "/images/pr_klemzig/klemzig_2.jpg",
+   "/images/pr_klemzig/klemzig_3.jpg",
+   "/images/pr_klemzig/klemzig_4.jpg"
   ],
   "pair": null,
   "notes": "No finished exterior photos; the only finished-looking photo is the kitchen (klemzig_11), which may be close to completion rather than handed over. Everything else is in progress. klemzig_5 and klemzig_10 are near-duplicates of klemzig_4 and klemzig_7.",
@@ -3890,10 +3855,9 @@
    "/images/pr_klemzig/klemzig_1.jpg",
    "/images/pr_klemzig/klemzig_1.1.jpg",
    "/images/pr_klemzig/klemzig_1.2.jpg",
-   "/images/pr_klemzig/klemzig_6.jpg",
-   "/images/pr_klemzig/klemzig_7.jpg",
-   "/images/pr_klemzig/klemzig_8.jpg",
-   "/images/pr_klemzig/klemzig_12.jpg"
+   "/images/pr_klemzig/klemzig_2.jpg",
+   "/images/pr_klemzig/klemzig_3.jpg",
+   "/images/pr_klemzig/klemzig_4.jpg"
   ],
   "meta": [
    {
@@ -3929,33 +3893,25 @@
     "h": 450
    },
    {
-    "alt": "Rendered single-storey house with windows fitted and protective film still on the glass, on a muddy site.",
+    "alt": "Single-storey house with timber frame, sheeted corner and roof on, with window units propped against the frame.",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Row of rendered houses with windows fitted and roofs on, and a ladder against the wall on a dirt site.",
+    "alt": "Timber wall frame and tiled roof structure, with window units leaning in front and timber offcuts on the ground.",
     "kind": "in-progress",
-    "stage": "lockup",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
    },
    {
-    "alt": "Rear of a rendered house with an open carport area and a wheelbarrow, on bare ground.",
+    "alt": "House with roof on, a brick end wall and open timber frame, with pallets of bricks on the slab.",
     "kind": "in-progress",
-    "stage": "lockup",
-    "room": "",
-    "w": 740,
-    "h": 450
-   },
-   {
-    "alt": "Interior with unpainted plasterboard walls, a long window and a timber trestle on a bare, dusty floor.",
-    "kind": "in-progress",
-    "stage": "fitout",
+    "stage": "frame",
     "room": "",
     "w": 740,
     "h": 450
@@ -3964,6 +3920,7 @@
  },
  "eliza-street": {
   "src": "elizast",
+  "checked": false,
   "hero": "/images/pr_other/elizast_2.jpg",
   "order": [
    "/images/pr_other/elizast_2.jpg",
@@ -3997,6 +3954,7 @@
  },
  "st-peters-duplex": {
   "src": "stpeters",
+  "checked": false,
   "hero": "/images/pr_stpeters/stpeters_1.jpg",
   "order": [
    "/images/pr_stpeters/stpeters_1.jpg",
@@ -4130,6 +4088,7 @@
  },
  "myrtle-bank": {
   "src": "myrtlebank",
+  "checked": false,
   "hero": "/images/pr_other/myrtlebank_1.jpg",
   "order": [
    "/images/pr_other/myrtlebank_1.jpg"
@@ -4153,6 +4112,7 @@
  },
  "glen-osmond": {
   "src": "vlglenosmond",
+  "checked": false,
   "hero": "/images/pr_vlglenosmond/vlglenosmond_2.jpg",
   "order": [
    "/images/pr_vlglenosmond/vlglenosmond_2.jpg",
@@ -4346,6 +4306,7 @@
  },
  "velo-victoria-park": {
   "src": "vicpark",
+  "checked": false,
   "hero": "/images/pr_vicpark/vicpark_34.jpg",
   "order": [
    "/images/pr_vicpark/vicpark_34.jpg",
@@ -4370,7 +4331,8 @@
    "/images/pr_vicpark/vicpark_7.jpg",
    "/images/pr_vicpark/vicpark_8.jpg",
    "/images/pr_vicpark/vicpark_11.jpg",
-   "/images/pr_vicpark/vicpark_14.jpg"
+   "/images/pr_vicpark/vicpark_14.jpg",
+   "/images/pr_vicpark/vicpark_16.jpg"
   ],
   "pair": {
    "earlier": "/images/pr_vicpark/vicpark_20.jpg",
@@ -4400,6 +4362,7 @@
    "/images/pr_vicpark/vicpark_8.jpg",
    "/images/pr_vicpark/vicpark_11.jpg",
    "/images/pr_vicpark/vicpark_14.jpg",
+   "/images/pr_vicpark/vicpark_16.jpg",
    "/images/pr_vicpark/vicpark_20.jpg"
   ],
   "meta": [
@@ -4572,6 +4535,14 @@
     "h": 450
    },
    {
+    "alt": "Room with plasterboard ceiling panels and walls, white columns and an opening in the side wall.",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "w": 740,
+    "h": 450
+   },
+   {
     "alt": "Narrow corridor with a stone-clad wall, a plasterboard ceiling and a ladder, and a timber door on the left.",
     "kind": "in-progress",
     "stage": "fitout",
@@ -4583,6 +4554,7 @@
  },
  "fullarton-dental-surgery": {
   "src": "glenosmond",
+  "checked": false,
   "hero": "/images/pr_glenosmond/glenosmond_6.jpg",
   "order": [
    "/images/pr_glenosmond/glenosmond_6.jpg",
@@ -4681,6 +4653,7 @@
  },
  "marleston-gym": {
   "src": "marleston",
+  "checked": false,
   "hero": "/images/pr_marleston/marleston_11.jpg",
   "order": [
    "/images/pr_marleston/marleston_11.jpg",

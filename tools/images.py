@@ -8,10 +8,19 @@ import glob, json, os, sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from projects import P, EXTRA  # noqa: E402
+from projects import P, EXTRA, CHECKED  # noqa: E402
+import re
 
 MAX_GALLERY = 18
 MAX_STAGE = 3  # photographs per build stage
+MAX_SITE = 6  # site photographs where the stages have not been checked by hand
+
+
+def tidy(alt):
+    """Alt text describes what is seen; it should not guess at materials or quote stamps on the photo."""
+    alt = re.sub(r"(sand)?stone-look", "stone", alt)
+    alt = re.sub(r",? ?marked as (the )?before( photo)?", "", alt)
+    return alt
 
 
 def merge():
@@ -35,12 +44,27 @@ def merge():
                 stages.append(f)
         pair = L.get("pair") if L.get("pair") and ok(L["pair"]["earlier"]) and ok(L["pair"]["finished"]) else None
         hero = L["hero"] if ok(L.get("hero", "")) else (order or stages)[0]
+        C = CHECKED.get(p["slug"])
+        if C:
+            f_ = lambda n: f"{C['dir']}{n}.jpg"
+            stages = [f_(n) for _, ns in C["stages"] for n in ns]
+            for st, ns in C["stages"]:
+                for n in ns:
+                    meta[f_(n)]["stage"] = st
+            if "order" in C:
+                order = [f_(n) for n in C["order"]]
+            if "hero" in C:
+                hero = f_(C["hero"])
+            if "pair" in C:
+                pair = dict(earlier=f_(C["pair"][0]), finished=f_(C["pair"][1]), earlier_label=C["pair"][2])
+        else:
+            stages = [f for f in L.get("stages", []) if ok(f)][:MAX_SITE]
         files = []
         for f in [hero] + order + stages + ([pair["earlier"], pair["finished"]] if pair else []) + EXTRA.get(p["slug"], []):
             if f not in files:
                 files.append(f)
-        out[p["slug"]] = dict(src=p["k"], hero=hero, order=order, stages=stages, pair=pair, notes=L.get("notes", ""), files=files,
-                              meta=[dict(alt=meta[f]["alt"], kind=meta[f]["kind"], stage=meta[f].get("stage", ""), room=meta[f].get("room", "")) for f in files])
+        out[p["slug"]] = dict(src=p["k"], checked=bool(C), hero=hero, order=order, stages=stages, pair=pair, notes=L.get("notes", ""), files=files,
+                              meta=[dict(alt=tidy(meta[f]["alt"]), kind=meta[f]["kind"], stage=meta[f].get("stage", ""), room=meta[f].get("room", "")) for f in files])
     return out
 
 

@@ -677,32 +677,32 @@ fieldset {
   }
   /* the camera starts close on the footings and cranes up and back as the house rises */
   .hero-cam {
-    animation: crane 6.4s cubic-bezier(0.5, 0, 0.15, 1) both;
+    animation: crane 5.2s cubic-bezier(0.5, 0, 0.15, 1) both;
   }
   .hero-shutters i {
-    animation: shutter 1.25s cubic-bezier(0.7, 0, 0.15, 1) calc(4.95s + var(--k) * 0.55s) both;
+    animation: shutter 1.25s cubic-bezier(0.7, 0, 0.15, 1) calc(3.95s + var(--k) * 0.5s) both;
   }
   .hero-lines {
-    animation: fade-out 1.3s ease 5.3s both;
+    animation: fade-out 1.1s ease 4.2s both;
   }
   /* straight lines grow from their foot or their start; arches and frames rise */
   .hero-lines .ln {
-    animation: stroke 0.6s cubic-bezier(0.3, 0.7, 0.2, 1) calc(var(--d) * 1s) both;
+    animation: stroke 0.55s cubic-bezier(0.3, 0.7, 0.2, 1) calc(var(--d) * 0.8s) both;
   }
   .hero-lines .pl {
-    animation: rise 0.75s var(--ease-out) calc(var(--d) * 1s) both;
+    animation: rise 0.65s var(--ease-out) calc(var(--d) * 0.8s) both;
   }
   .hero-lines .level {
-    animation: fade-in 0.5s ease calc(var(--t) * 1s) both;
+    animation: fade-in 0.5s ease calc(var(--t) * 0.8s) both;
   }
   .hero-photo img {
-    animation: push 16s cubic-bezier(0.2, 0.6, 0.3, 1) 4.9s both;
+    animation: push 16s cubic-bezier(0.2, 0.6, 0.3, 1) 3.9s both;
   }
   .stages li {
-    animation: stage-ink 0.5s ease calc(var(--t) * 1s) both;
+    animation: stage-ink 0.5s ease calc(var(--t) * 0.8s) both;
   }
   .stages li::after {
-    animation: stage-bar 0.6s var(--spring) calc(var(--t) * 1s) both;
+    animation: stage-bar 0.6s var(--spring) calc(var(--t) * 0.8s) both;
   }
   .hero-kicker,
   .hero-row > * {
@@ -1533,14 +1533,14 @@ body {
 .pair-side {
   position: relative;
   overflow: hidden;
-  background: #000;
+  background: rgba(127, 127, 127, 0.14);
 }
 .pair-side img {
   width: 100%;
   height: auto;
 }
 .pair-side--old img {
-  filter: grayscale(1) contrast(0.92) brightness(0.86);
+  filter: grayscale(1) contrast(0.95);
 }
 .pair-side figcaption {
   position: absolute;
@@ -1583,11 +1583,11 @@ body {
   }
   .js .pair[data-reveal] .pair-side--new img {
     clip-path: inset(100% 0 0 0);
-    transition: clip-path 1.1s var(--ease-in-out) 0.55s;
+    transition: clip-path 1s var(--ease-in-out) 0.2s;
   }
   .js .pair[data-reveal] figcaption {
     opacity: 0;
-    transition: opacity 0.5s ease 0.9s;
+    transition: opacity 0.5s ease 0.5s;
   }
   .js .pair[data-reveal].is-in img {
     clip-path: inset(0 0 0 0);
@@ -2561,8 +2561,12 @@ html:not(.js) .proc-n .shout {
   align-content: start;
 }
 .contact .shout {
-  font-size: clamp(36px, 4.6vw, 76px);
+  font-size: clamp(32px, 3.5vw, 58px);
   text-wrap: balance;
+  overflow-wrap: break-word;
+}
+.contact-grid > * {
+  min-width: 0;
 }
 .contact-list {
   display: grid;
@@ -2944,12 +2948,43 @@ html:not(.js) .proc-n .shout {
 @media (max-width: 899px) and (prefers-reduced-motion: no-preference) {
   .stages {
     display: grid;
-    animation: stages-off 0.8s ease 6.3s both;
+    animation: stages-off 0.8s ease 5.2s both;
   }
 }
 @keyframes stages-off {
   to {
     opacity: 0;
     visibility: hidden;
+  }
+}
+
+/* A photograph that is not of finished work says so */
+.photo-note {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  padding: 8px 12px;
+  background: var(--iron);
+  color: var(--bone);
+}
+.card figure,
+.p-hero-photo {
+  position: relative;
+}
+.proc-note {
+  margin-bottom: var(--s-7);
+  max-width: none;
+}
+/* Phones: site photographs sit two across, all in view (no sideways strip to miss) */
+@media (max-width: 899px) {
+  .stage-shots {
+    grid-auto-flow: row;
+    grid-auto-columns: auto;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: visible;
+    margin-right: 0;
+    padding-right: 0;
+    gap: var(--s-2);
   }
 }

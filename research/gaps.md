@@ -69,6 +69,24 @@ fill the hole.
     site meetings are held and who attends; what happens after handover).
 23. **About page**: team names, roles and portraits.
 
+## From the independent review (a fresh reviewer, going through the site as the owner)
+
+24. **Build stages are named on three projects only** (Ovingham, Field Street, Highgate), where
+    the order was checked by hand. Every other project shows its site photographs as one group,
+    "On site", with no stage names, because some of the automatic stage labels were wrong. Peter
+    or a supervisor could order the rest in minutes.
+25. **Galleries are headed "Photographs of the job", not "The result"**, because some of his
+    published photographs show work not quite finished (a skip bin, an unfilled pool). Finished
+    photographs would let that heading be stronger.
+26. **Nothing on his site is dated after 2019.** Recent work would help more than anything else.
+27. **Not on the demo because his site does not give them**: office hours, a map, the area
+    served, Google reviews, warranty and insurance wording.
+28. **Kept as he wrote it**: a few phrases on the services page are his own and a little
+    promotional ("exceptional workmanship and cutting edge building solutions"). His call.
+29. **Statements removed after review** because his site does not make them: "family" company,
+    Peter answering his own phone, a free first conversation, being on site at every stage, and a
+    promise that he will call back. If any are true he can put them back in his own words.
+
 ## Placeholders in the demo right now
 
 - The enquiry form validates and shows its success state but sends nowhere. The hook is

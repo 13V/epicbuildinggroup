@@ -94,19 +94,23 @@
   // JavaScript it simply opens the photograph.
   var zooms = [].slice.call(document.querySelectorAll("a[data-zoom]"));
   if (zooms.length && typeof HTMLDialogElement !== "undefined") {
-    var seen = {};
-    var shots = zooms.filter(function (a) {
-      if (seen[a.href]) return false;
-      seen[a.href] = 1;
-      return true;
-    });
+    // each set of photographs (gallery, build, plan) is stepped through on its own
+    var shots = [];
+    var setFor = function (group) {
+      var seen = {};
+      shots = zooms.filter(function (a) {
+        if ((a.getAttribute("data-zoom") || "") !== group || seen[a.href]) return false;
+        seen[a.href] = 1;
+        return true;
+      });
+    };
     var box = document.createElement("dialog");
     box.className = "lightbox";
     box.setAttribute("aria-label", "Photograph, full screen");
     box.innerHTML =
       '<div class="lb-top"><span class="label" data-lb-count></span><button class="lb-btn" type="button" data-lb-close aria-label="Close"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div>' +
       '<div class="lb-stage"><img alt=""><button class="lb-btn lb-prev" type="button" aria-label="Previous photograph"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button class="lb-btn lb-next" type="button" aria-label="Next photograph"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div>' +
-      '<p class="lb-foot" data-lb-cap aria-live="polite"></p>';
+      '<p class="lb-foot" aria-hidden="true">Swipe or use the arrow keys</p>';
     document.body.appendChild(box);
     var lbImg = box.querySelector("img");
     var at = 0;
@@ -120,7 +124,6 @@
       lbImg.style.animation = "";
       lbImg.src = a.href;
       lbImg.alt = inner ? inner.alt : "";
-      box.querySelector("[data-lb-cap]").textContent = inner ? inner.alt : "";
       box.querySelector("[data-lb-count]").textContent = at + 1 + " / " + shots.length;
       var many = shots.length > 1;
       box.querySelector(".lb-prev").hidden = !many;
@@ -131,6 +134,7 @@
         if (e.metaKey || e.ctrlKey || e.shiftKey) return;
         e.preventDefault();
         opener = a;
+        setFor(a.getAttribute("data-zoom") || "");
         var i = 0;
         shots.forEach(function (s, n) {
           if (s.href === a.href) i = n;

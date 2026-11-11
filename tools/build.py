@@ -145,7 +145,7 @@ def header(current=""):
 """
 
 
-def cta(title="Have a project to talk about?", text="Tell us what you are planning, or call Peter. We will arrange a time to meet, on site where we can.", type_=""):
+def cta(title="Have a project to talk about?", text="Tell us what you are planning, or call Peter.", type_=""):
     q = f"?type={type_}" if type_ else ""
     return f"""
 <section class="cta" aria-labelledby="cta-title">
@@ -225,13 +225,20 @@ def page_head(label, title, lede, crumbs=None):
 """
 
 
-def card(p, i=0, lazy=True):
+def card(p, i=0, lazy=True, room=None):
     ph = hero_of(p["slug"])
+    P_ = PHOTOS[p["slug"]]
+    if room:  # a tile that should show a particular room, where the project has one
+        for f in P_["order"]:
+            if P_["meta"][P_["files"].index(f)].get("room") == room:
+                ph = photo(p["slug"], f)
+                break
+    tag = "" if P_["order"] else '<span class="photo-note label">During the build</span>' 
     b = built(p) if p.get("built") and p["built"] != "TODO" else ""
     meta = e(p["type"]) + (f" · {b}" if b else "")
     return f"""<a class="card" href="/projects/{p['slug']}" data-cat="{p['cat']}" data-reveal style="--i:{i % 3}">
-        <figure>{img(ph, small=True, lazy=lazy, sizes="(min-width: 1000px) 30vw, (min-width: 640px) 46vw, 100vw")}</figure>
-        <span class="card-body"><b>{e(p.get('short') or p['name'])}</b><span class="label">{meta}</span></span>
+        <figure>{tag}{img(ph, small=True, lazy=lazy, sizes="(min-width: 1000px) 30vw, (min-width: 640px) 46vw, 100vw")}</figure>
+        <span class="card-body"><b>{e(p.get('card') or p.get('short') or p['name'])}</b><span class="label">{meta}</span></span>
       </a>"""
 
 
@@ -256,7 +263,8 @@ PAYNEHAM = [
 ZOITAKIS = "I am writing this as a testimonial for all the hard work you have done on our extension at Westbourne Park. The extension was approximately 160 square metres and included a large area at the back of our existing house, an ensuite and a large laundry area. Both Soula and myself were very happy with your work on our renovation/extension. Your work ethic, punctuality and attention to detail was amazing. All the guys that worked with/for you were also exceptional and had the same drive and passion as you. I remember those early morning starts and waiting for you to come up our driveway singing cheerfully. Peter, you were always cheerful and accommodating with all the changes/alterations we required. We would not hesitate in using your company again in the future."
 
 
-def payneham_quote(full=True):
+def payneham_quote(full=True, link=True):
+    link = f' <a class="text-link" href="/projects/payneham">See the home {ARROW}</a>' if link else ""
     rest = "".join(f"<p>{e(x)}</p>" for x in PAYNEHAM[1:])
     more = f'<details class="more"><summary><span>Read the whole letter</span>{ARROW}</summary><div class="more-body">{rest}</div></details>' if full else ""
     return f"""
@@ -268,7 +276,7 @@ def payneham_quote(full=True):
         <p class="quote-lead">{e(PAYNEHAM[0])}</p>
         {more}
       </blockquote>
-      <figcaption><b>Owner</b><span class="label">Payneham new build</span> <a class="text-link" href="/projects/payneham">See the home {ARROW}</a></figcaption>
+      <figcaption><b>Owner</b><span class="label">Payneham new build</span>{link}</figcaption>
     </figure>
   </div>
 </section>

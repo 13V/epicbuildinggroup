@@ -32,11 +32,11 @@ ALSO = [
     ("Builders supervision", "Our building supervisors can provide the degree of supervision necessary for work on your site to be carried out safely."),
 ]
 STAGES = [
-    ("Consultation", "We start by listening",
+    ("Consultation", "All the options, up front",
      ["We explore all options up front with you, to define precisely what is to be built.",
       "You can come with a full set of architectural drawings, a rough sketch or a folder of magazine pictures. We have built from all three."],
      None),
-    ("Design", "Drawn to suit the house and the budget",
+    ("Design", "From your drawings, or from the start",
      ["We can work from your architect's drawings, or be involved from the initial design and planning stage.",
       "Our architectural design team and in-house interior designer help with the selection of fixtures, finishes and colour schemes for every room."],
      None),
@@ -45,9 +45,9 @@ STAGES = [
      "who lodges the application, and how long approvals usually take"),
     ("Build", "On site, with regular site meetings",
      ["Our clients deal with real Master Builders, with regular on site meetings and a hands on approach to keep the project on schedule and budget.",
-      "We manage the budget, the site and the sub-contractors. Changes are talked through on site, as they come up."],
+      "We manage the budget, the site and the sub-contractors."],
      "how often site meetings are held, and who attends"),
-    ("Handover", "Finished, as specified",
+    ("Handover", "On time, within budget, to specification",
      ["Our primary goal is a quality result, delivered on time and within budget, while meeting all construction specifications."],
      "what happens after handover (maintenance period, warranty)"),
 ]
@@ -87,13 +87,14 @@ def build_all(B):
         ("commercial", "A commercial project", "field-street", "/images/pr_fieldst/fieldst_15.jpg", "Field Street", "500 sqm ·<br> Oct 2013 to Apr 2014", "A derelict cold store, rebuilt as five restaurants",
          "The warehouse was gutted and rebuilt with new structural walls, services, wet areas and rear mezzanine floors, on a congested city site. We also completed the fit out for three of the five restaurants."),
     ]
-    radios = "\n".join(f'        <input type="radio" name="type" id="plan-{k}" value="{k}"{" checked" if i == 0 else ""}>' for i, (k, *_) in enumerate(plan))
-    choices = "\n".join(f'            <label for="plan-{k}"><span class="n">0{i + 1}</span>{lab}{BEAM}</label>' for i, (k, lab, *_) in enumerate(plan))
+    pid = lambda k: {"kitchen-bathroom": "kitchen", "new-home": "new"}.get(k, k)  # the ids the stylesheet knows
+    radios = "\n".join(f'        <input type="radio" name="type" id="plan-{pid(k)}" value="{k}"{" checked" if i == 0 else ""}>' for i, (k, *_) in enumerate(plan))
+    choices = "\n".join(f'            <label for="plan-{pid(k)}"><span class="n">0{i + 1}</span>{lab}{BEAM}</label>' for i, (k, lab, *_) in enumerate(plan))
     panels = ""
     for k, lab, slug, file, place, fact, h, text in plan:
         ph = B.photo(slug, file)
         panels += f"""
-            <div class="panel panel--{k}">
+            <div class="panel panel--{pid(k)}">
               <figure class="panel-photo">
                 {B.img(ph, sizes="(min-width: 1000px) 54vw, 100vw")}
                 <figcaption><b>{place}</b><span class="label">{fact}</span></figcaption>
@@ -125,7 +126,7 @@ def build_all(B):
           <h3 class="h2"><a href="/projects/{p['slug']}">{e(p.get('short') or p['name'])}</a></h3>
           <p class="lede">{e(p['lede'])}</p>
           <ul class="mini-facts">{facts}</ul>
-          <a class="btn btn--line" href="/projects/{p['slug']}">See how it was built {ARROW}</a>
+          <a class="btn btn--line" href="/projects/{p['slug']}">See the project {ARROW}</a>
         </div>
       </article>"""
     stages_home = "".join(f'<li data-reveal style="--i:{i}"><span class="label">0{i + 1}</span><b>{s[0]}</b><span>{s[1]}</span></li>' for i, s in enumerate(STAGES))
@@ -148,7 +149,7 @@ def build_all(B):
       <li data-reveal style="--i:1"><b>2011</b><span class="label">Master Builders SA award</span><small>Best Renovation, up to $600,000</small></li>
       <li data-reveal style="--i:2"><b>14</b><span class="label">Full time team</span><small>Plus preferred contractors</small></li>
       <li data-reveal style="--i:3"><b>25+</b><span class="label">Years of projects</span><small>Across Adelaide</small></li>
-      <li data-reveal style="--i:4"><b>2nd</b><span class="label">Generation</span><small>A family building company</small></li>
+      <li data-reveal style="--i:4"><b>2nd</b><span class="label">Generation</span><small>Building company</small></li>
     </ul>
   </div>
 </section>
@@ -184,7 +185,7 @@ def build_all(B):
     <div class="section-head" data-reveal>
       <p class="label">{BEAM}Feature projects</p>
       <h2 class="h2" id="features-title">Four jobs, four kinds of building.</h2>
-      <p class="lede">A new home, a commercial rebuild, a heritage renovation and a development of our own. Each page shows the build in order.</p>
+      <p class="lede">A new home, a commercial rebuild, a heritage renovation and a development of our own.</p>
     </div>
     <div class="features">{feats}
     </div>
@@ -197,8 +198,8 @@ def build_all(B):
   <div class="wrap">
     <div class="section-head" data-reveal>
       <p class="label">{BEAM}During and after</p>
-      <h2 class="h2" id="pair-title">The same corner, six months apart.</h2>
-      <p class="lede">Field Street, Adelaide. A derelict cold store in October 2013; five restaurants by April 2014.</p>
+      <h2 class="h2" id="pair-title">The same corner, during the build and open.</h2>
+      <p class="lede">Field Street, Adelaide. A derelict warehouse rebuilt as five restaurants, October 2013 to April 2014.</p>
     </div>
     {B.pair_block("field-street", "/images/pr_fieldst/fieldst_5.jpg", "/images/pr_fieldst/fieldst_10.jpg", "During", 'Both photographs are from the Field Street project. <a class="text-link" href="/projects/field-street">See the whole build</a>')}
   </div>
@@ -209,7 +210,7 @@ def build_all(B):
   <div class="wrap">
     <div class="section-head" data-reveal>
       <p class="label">{BEAM}How a build runs</p>
-      <h2 class="h2" id="how-title">Five stages. We are on site for all of them.</h2>
+      <h2 class="h2" id="how-title">From the first drawing to completion.</h2>
       <p class="lede">Regular on site meetings and a hands on approach keep a project on schedule and budget.</p>
     </div>
     <ol class="steps">{stages_home}</ol>
@@ -239,7 +240,8 @@ def build_all(B):
     counts = {c: sum(1 for p in P if p["cat"] == c) for c in CATS}
     fr = '<input type="radio" name="f" id="f-all" checked>' + "".join(f'<input type="radio" name="f" id="f-{c}">' for c in CATS)
     fl = f'<label for="f-all">All <span>{len(P)}</span></label>' + "".join(f'<label for="f-{c}">{CATS[c]} <span>{counts[c]}</span></label>' for c in CATS)
-    cards = "\n      ".join(B.card(p, i, lazy=i > 2) for i, p in enumerate(P))
+    listed = sorted(P, key=lambda p: 0 if PHOTOS[p["slug"]]["order"] else 1)  # those with finished photographs first
+    cards = "\n      ".join(B.card(p, i, lazy=i > 2) for i, p in enumerate(listed))
     body = B.page_head("Projects", "Built by Epic.", f"{len(P)} projects across Adelaide: new homes, renovations and extensions, developments and commercial work. Every one is ours, and every photograph is of the job itself.") + f"""
 <section class="section on-light index" aria-label="All projects">
   <div class="wrap">
@@ -261,6 +263,7 @@ def build_all(B):
     for idx, p in enumerate(P):
         slug, ph = p["slug"], PHOTOS[p["slug"]]
         hp = B.hero_of(slug)
+        note = "" if ph["order"] else '<span class="photo-note label">Photographed during the build</span>'
         facts = [("Type", e(p["type"])), ("Built", B.built(p)), ("Duration", e(p.get("duration", ""))), ("Size", e(p.get("size", ""))), ("Rooms", e(p.get("rooms", ""))),
                  ("Our part", e(p.get("scope", ""))), ("With", e(p.get("credit", ""))), ("Award", e(p.get("award", "")))]
         facts = [(a, b) for a, b in facts if b]
@@ -276,7 +279,7 @@ def build_all(B):
 <section class="section on-light plan" aria-labelledby="plan-title">
   <div class="wrap">
     <div class="section-head" data-reveal><p class="label">{BEAM}The plan</p><h2 class="h2" id="plan-title">Old house in front, new rooms behind.</h2></div>
-    <figure class="plan-sheet" data-draw><a href="{pl['src']}" data-zoom>{B.img(pl)}</a><figcaption class="label">The floor plan as published with the project</figcaption></figure>
+    <figure class="plan-sheet" data-draw><a href="{pl['src']}" data-zoom="plan">{B.img(pl)}</a><figcaption class="label">The floor plan as published with the project</figcaption></figure>
   </div>
 </section>"""
         if ph["pair"]:
@@ -290,31 +293,32 @@ def build_all(B):
 </section>"""
         if ph["stages"]:
             groups, seen = "", []
+            staged = bool(ph.get("checked"))
             for f in ph["stages"]:
-                s = B.photo(slug, f)["stage"] or "site"
+                s = (B.photo(slug, f)["stage"] or "site") if staged else "all"
                 if s not in seen:
                     seen.append(s)
             for gi, s in enumerate(seen):
-                shots = "".join(f'<a class="shot" href="{x["src"]}" data-zoom data-reveal style="--i:{j}">{B.img(x, small=True, sizes="(min-width: 900px) 28vw, 80vw")}</a>' for j, x in enumerate(B.photo(slug, f) for f in ph["stages"] if (B.photo(slug, f)["stage"] or "site") == s))
+                shots = "".join(f'<a class="shot" href="{x["src"]}" data-zoom="build" data-reveal style="--i:{j}">{B.img(x, small=True, sizes="(min-width: 900px) 28vw, 80vw")}</a>' for j, x in enumerate(B.photo(slug, f) for f in ph["stages"] if not staged or (B.photo(slug, f)["stage"] or "site") == s))
                 groups += f"""
       <li class="stage">
-        <div class="stage-mark" data-reveal><span class="label">Stage 0{gi + 1}</span><h3 class="h3">{B.STAGE_NAMES[s]}</h3></div>
+        <div class="stage-mark" data-reveal><span class="label">{f"Stage 0{gi + 1}" if staged else "During the build"}</span><h3 class="h3">{B.STAGE_NAMES[s] if staged else "On site"}</h3></div>
         <div class="stage-shots">{shots}</div>
       </li>"""
             blocks += f"""
 <section class="section dark build" aria-labelledby="build-title">
   <div class="wrap">
-    <div class="section-head" data-reveal><p class="label">{BEAM}The build</p><h2 class="h2" id="build-title">How it went up.</h2><p class="lede">Photographs taken on site during the job, in order.</p></div>
+    <div class="section-head" data-reveal><p class="label">{BEAM}The build</p><h2 class="h2" id="build-title">How it went up.</h2><p class="lede">Photographs taken on site during the job.</p></div>
     <ol class="stages-rail" data-rail>{groups}
     </ol>
   </div>
 </section>"""
         if ph["order"]:
-            g = "".join(f'<a class="shot" href="{x["src"]}" data-zoom data-reveal style="--i:{j % 3}">{B.img(x, small=True, sizes="(min-width: 900px) 31vw, 48vw")}</a>' for j, x in enumerate(B.photo(slug, f) for f in ph["order"]))
+            g = "".join(f'<a class="shot" href="{x["src"]}" data-zoom="gallery" data-reveal style="--i:{j % 3}">{B.img(x, small=True, sizes="(min-width: 900px) 31vw, 48vw")}</a>' for j, x in enumerate(B.photo(slug, f) for f in ph["order"]))
             blocks += f"""
 <section class="section on-light" aria-labelledby="gallery-title">
   <div class="wrap">
-    <div class="section-head" data-reveal><p class="label">{BEAM}Finished</p><h2 class="h2" id="gallery-title">The result.</h2><p class="lede">{len(ph['order'])} photographs. Select one to see it full screen.</p></div>
+    <div class="section-head" data-reveal><p class="label">{BEAM}Gallery</p><h2 class="h2" id="gallery-title">Photographs of the job.</h2><p class="lede">{len(ph['order'])} photograph{'s' if len(ph['order']) != 1 else ''}. Select {'one' if len(ph['order']) != 1 else 'it'} to see it full screen.</p></div>
     <div class="gallery">{g}</div>
   </div>
 </section>"""
@@ -325,7 +329,7 @@ def build_all(B):
             blocks += f"""
 <section class="section on-light slim"><div class="wrap"><a class="btn btn--line" href="https://www.youtube.com/watch?v={p['video']}" rel="noopener">Take the video tour on YouTube {ARROW}</a></div></section>"""
         if p.get("testimonial"):
-            blocks += B.payneham_quote()
+            blocks += B.payneham_quote(link=False)
         nx = P[(idx + 1) % len(P)]
         nph = B.hero_of(nx["slug"])
         blocks += f"""
@@ -343,7 +347,7 @@ def build_all(B):
     <h1 class="shout">{e(p['name'])}</h1>
     <p class="lede">{e(p['lede'])}</p>
   </div>
-  <figure class="p-hero-photo"><a href="{hp['src']}" data-zoom>{B.img(hp, lazy=False)}</a></figure>
+  <figure class="p-hero-photo">{note}<a href="{hp['src']}" data-zoom="gallery">{B.img(hp, lazy=False)}</a></figure>
 </section>
 <section class="p-facts dark" aria-label="Project facts"><div class="wrap"><dl>{fx}</dl></div></section>
 <section class="section on-light story">
@@ -351,7 +355,7 @@ def build_all(B):
     <h2 class="h3" data-reveal>What we did</h2>
     <div class="prose" data-reveal>{story}</div>
   </div>
-</section>""" + blocks + B.cta("Planning something like this?", "Tell us about it, or call Peter. We will arrange a time to meet, on site where we can.", {"new": "new-home", "reno": "renovation", "dev": "development", "com": "commercial"}[p["cat"]])
+</section>""" + blocks + B.cta("Planning something like this?", "Tell us about it, or call Peter.", {"new": "new-home", "reno": "renovation", "dev": "development", "com": "commercial"}[p["cat"]])
         ld = [B.crumb_ld([("/", "Home"), ("/projects", "Projects"), (f"/projects/{slug}", p["name"])]),
               {"@type": "CreativeWork", "name": f"{p['name']}: {p['type']}", "description": p["lede"], "url": f"{B.SITE}/projects/{slug}", "creator": {"@id": B.SITE + "/#business"},
                "image": [B.SITE + B.photo(slug, f)["src"] for f in ([ph["hero"]] + ph["order"][:3])], "locationCreated": {"@type": "Place", "name": p["name"] + ", South Australia"}}]
@@ -361,7 +365,8 @@ def build_all(B):
     # ---------------- Services ----------------
     secs = ""
     for i, s in enumerate(SERVICES):
-        egs = "\n      ".join(B.card(BY[x], j) for j, x in enumerate(s["egs"]))
+        room = "kitchen" if s["id"] == "kitchens-bathrooms" else None
+        egs = "\n      ".join(B.card(BY[x], j, room=room) for j, x in enumerate(s["egs"]))
         secs += f"""
 <section class="section {'on-light' if i % 2 == 0 else 'dark'} svc" id="{s['id']}" aria-labelledby="{s['id']}-t">
   <div class="wrap">
@@ -411,9 +416,10 @@ def build_all(B):
           {meet}{g}
         </div>
       </li>"""
-    body = B.page_head("Process", "How a build runs.", "From the first conversation to the keys. The same five stages for an ensuite or a row of townhouses, with a Master Builder on site through all of it.") + f"""
+    body = B.page_head("Process", "How a build runs.", "We can be involved from the initial design and planning stage, through approval to construction and completion, with regular on site meetings along the way.") + f"""
 <section class="section on-light" aria-label="The five stages">
   <div class="wrap">
+    <p class="lede proc-note" data-reveal>{B.todo("the stages below are an outline assembled from statements on the current site. Peter's own sequence and wording should replace it.")}</p>
     <ol class="proc-rail" data-rail>{rail}
     </ol>
   </div>
@@ -424,7 +430,7 @@ def build_all(B):
     <blockquote class="pull" data-reveal><p id="said-t">&ldquo;Peter provided us with his valued opinion, at every stage of the build, providing us with the flexibility to make changes, to ensure we were 100% satisfied with the outcome.&rdquo;</p><footer><b>Owner</b> <span class="label">Payneham new build</span></footer></blockquote>
   </div>
 </section>
-""" + B.cta("Ready to start at stage one?", "The first conversation costs nothing. Tell us what you are planning, or call Peter.")
+""" + B.cta()
     doc("/process", "process.html", "Our process | Epic Building Group, Adelaide", "How Epic Building Group runs a project: consultation, design, approvals, build and handover, with regular on site meetings.", body, current="/process", ld=[B.crumb_ld([("/", "Home"), ("/process", "Process")])])
 
     # ---------------- About ----------------
@@ -437,7 +443,7 @@ def build_all(B):
       <li data-reveal style="--i:1"><b>2011</b><span class="label">Master Builders SA award</span><small>Best Renovation, up to $600,000</small></li>
       <li data-reveal style="--i:2"><b>14</b><span class="label">Full time team</span><small>Plus preferred contractors</small></li>
       <li data-reveal style="--i:3"><b>25+</b><span class="label">Years of projects</span><small>Across Adelaide</small></li>
-      <li data-reveal style="--i:4"><b>2nd</b><span class="label">Generation</span><small>A family building company</small></li>
+      <li data-reveal style="--i:4"><b>2nd</b><span class="label">Generation</span><small>Building company</small></li>
     </ul>
   </div>
 </section>
@@ -463,7 +469,7 @@ def build_all(B):
 </section>
 <section class="section on-light team" aria-labelledby="team-t">
   <div class="wrap">
-    <div class="section-head" data-reveal><p class="label">{BEAM}The team</p><h2 class="h2" id="team-t">A full time team of 14.</h2><p class="lede">Led by Peter Tsoukalas, with regular preferred contractors and suppliers where required.</p></div>
+    <div class="section-head" data-reveal><p class="label">{BEAM}The team</p><h2 class="h2" id="team-t">A full time team of 14.</h2><p class="lede">With regular preferred contractors and suppliers where required.</p></div>
     <ul class="roles">{roles}</ul>
     <p class="lede" data-reveal>{B.todo("names, roles and portraits of the team, starting with Peter")}</p>
   </div>
@@ -473,7 +479,7 @@ def build_all(B):
     <div data-reveal><p class="label">{BEAM}Recognition</p><h2 class="h2" id="award-t">Best Renovation, 2011.</h2></div>
     <div class="prose" data-reveal>
       <p>In recognition of our high standard of quality, we were awarded Best Renovation, in the category for renovations up to $600,000, by the Master Builders Association of South Australia in 2011.</p>
-      <p><a class="btn btn--line" href="/projects/parkside">See the Parkside renovation {ARROW}</a></p>
+      <p>{B.todo("the Parkside page words the award as Excellence in Renovation and Addition, $400k to $600k category. Is Parkside the 2011 winner, and which wording is on the certificate?")}</p>
     </div>
   </div>
 </section>
@@ -500,8 +506,8 @@ def build_all(B):
   <div class="wrap contact-grid">
     <div class="contact-side">
       <p class="label kick">{BEAM}Contact</p>
-      <h1 class="shout">Start a project conversation.</h1>
-      <p class="lede">Three short steps. Or skip the form and call: Peter answers his own phone.</p>
+      <h1 class="shout">Tell us about your project.</h1>
+      <p class="lede">Three short steps. Or skip the form and call Peter.</p>
       <ul class="contact-list">
         <li><span class="label">Enquiries</span><a class="tel big" href="tel:+61411510558">Peter 0411 510 558</a></li>
         <li><span class="label">Office</span><a class="tel" href="tel:+61881520948">08 8152 0948</a></li>
@@ -548,7 +554,7 @@ def build_all(B):
       <fieldset class="step" data-step>
         <legend>How do we reach you?</legend>
         <label class="field"><span>Your name</span><input type="text" name="name" autocomplete="name" required><span class="err" hidden>Add your name.</span></label>
-        <label class="field"><span>Phone</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required pattern="[0-9 +]{{8,16}}"><span class="err" hidden>Add a phone number we can call, digits only.</span></label>
+        <label class="field"><span>Phone</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required pattern="[0-9 +]{{8,16}}"><span class="err" hidden>Add a phone number we can call.</span></label>
         <label class="field field--wide"><span>Email <em>(optional)</em></span><input type="email" name="email" autocomplete="email"><span class="err" hidden>That email address does not look right.</span></label>
       </fieldset>
 
@@ -563,7 +569,7 @@ def build_all(B):
       <div class="form-done" role="status" tabindex="-1" hidden>
         {BEAM}
         <h2 class="h2">Thank you<span data-done-name></span>.</h2>
-        <p class="lede">Your enquiry is ready for Peter. He will call you on <b data-done-phone></b>.</p>
+        <p class="lede">Your enquiry is ready for Epic Building Group, with <b data-done-phone></b> as the number to call.</p>
         <p class="demo-note">{B.todo("this demo does not send anything yet. The real site will post to Peter here.")}</p>
         <a class="btn btn--line" href="/projects">Look through the projects {ARROW}</a>
       </div>

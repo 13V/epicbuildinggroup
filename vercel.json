@@ -5,14 +5,155 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Robots-Tag", "value": "noindex, nofollow" },
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" }
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
       ]
     },
     {
       "source": "/assets/(.*)",
-      "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800, stale-while-revalidate=86400" }]
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/projects/torrenspark",
+      "destination": "/projects/torrens-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/fieldst",
+      "destination": "/projects/field-street",
+      "permanent": true
+    },
+    {
+      "source": "/projects/mileend",
+      "destination": "/projects/mile-end",
+      "permanent": true
+    },
+    {
+      "source": "/projects/goodwood_as",
+      "destination": "/projects/goodwood-new-home",
+      "permanent": true
+    },
+    {
+      "source": "/projects/angas-goodwood",
+      "destination": "/projects/goodwood-renovation",
+      "permanent": true
+    },
+    {
+      "source": "/projects/secstpeters",
+      "destination": "/projects/st-peters-renovation",
+      "permanent": true
+    },
+    {
+      "source": "/projects/hydepark",
+      "destination": "/projects/hyde-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/golfviewheights",
+      "destination": "/projects/golfview-heights",
+      "permanent": true
+    },
+    {
+      "source": "/projects/banksiapark",
+      "destination": "/projects/banksia-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/roystonpark",
+      "destination": "/projects/royston-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/cross_rd_highgate",
+      "destination": "/projects/cross-road-highgate",
+      "permanent": true
+    },
+    {
+      "source": "/projects/elizast",
+      "destination": "/projects/eliza-street",
+      "permanent": true
+    },
+    {
+      "source": "/projects/stpeters",
+      "destination": "/projects/st-peters-duplex",
+      "permanent": true
+    },
+    {
+      "source": "/projects/myrtlebank",
+      "destination": "/projects/myrtle-bank",
+      "permanent": true
+    },
+    {
+      "source": "/projects/vlglenosmond",
+      "destination": "/projects/glen-osmond",
+      "permanent": true
+    },
+    {
+      "source": "/projects/vicpark",
+      "destination": "/projects/velo-victoria-park",
+      "permanent": true
+    },
+    {
+      "source": "/projects/glenosmond",
+      "destination": "/projects/fullarton-dental-surgery",
+      "permanent": true
+    },
+    {
+      "source": "/projects/marleston",
+      "destination": "/projects/marleston-gym",
+      "permanent": true
+    },
+    {
+      "source": "/projects/elizast_re",
+      "destination": "/projects/eliza-street",
+      "permanent": true
+    },
+    {
+      "source": "/projects/myrtlebank_gd",
+      "destination": "/projects/myrtle-bank",
+      "permanent": true
+    },
+    {
+      "source": "/projects/stpeters_gd",
+      "destination": "/projects/st-peters-duplex",
+      "permanent": true
+    },
+    {
+      "source": "/projects/vlglenosmond_gd",
+      "destination": "/projects/glen-osmond",
+      "permanent": true
+    },
+    {
+      "source": "/projects/goodwood",
+      "destination": "/projects/goodwood-new-home",
+      "permanent": true
+    },
+    {
+      "source": "/projects/fieldstreet",
+      "destination": "/projects/field-street",
+      "permanent": true
+    },
+    {
+      "source": "/our-team",
+      "destination": "/about",
+      "permanent": true
     }
   ]
 }
