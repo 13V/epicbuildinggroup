@@ -17,6 +17,18 @@
         hero.classList.remove("is-reset");
       });
     }
+    // depth: as the hero scrolls away the picture sinks and the words lift
+    var sRaf = 0;
+    var depth = function () {
+      sRaf = 0;
+      var h = hero.offsetHeight || 1;
+      var v = Math.max(0, Math.min(1, window.scrollY / h));
+      hero.style.setProperty("--sy", v.toFixed(3));
+      hero.classList.toggle("is-away", v > 0.02);
+    };
+    window.addEventListener("scroll", function () {
+      if (!sRaf) sRaf = requestAnimationFrame(depth);
+    }, { passive: true });
     if (fine) {
       var raf = 0;
       hero.addEventListener("pointermove", function (e) {

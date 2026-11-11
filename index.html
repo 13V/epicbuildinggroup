@@ -54,11 +54,11 @@
 </header>
 
 <main id="main">
-<!-- 1. Hero. The whole screen is a black sheet. The house is drawn on it from footings to roof,
-     then the sheet lifts and the photograph of the finished home is there.
+<!-- 1. Hero. The whole screen is a black sheet. The house is drawn on it line by line, from footings
+     to roof, while the view cranes up; then the sheet lifts as shutters and the photograph is there.
      Without motion or JavaScript the photograph simply shows. -->
 <section class="hero" id="hero" aria-labelledby="hero-title">
-  <div class="hero-art" aria-hidden="true">
+  <div class="hero-art" aria-hidden="true"><div class="hero-cam">
     <picture class="hero-photo">
       <source media="(max-width: 899px)" type="image/avif" srcset="/assets/img/hero/torrens-park-phone.avif">
       <source media="(max-width: 899px)" type="image/webp" srcset="/assets/img/hero/torrens-park-phone.webp">
@@ -66,51 +66,176 @@
       <source type="image/webp" srcset="/assets/img/hero/torrens-park-1280.webp 1280w, /assets/img/hero/torrens-park-1920.webp 1920w" sizes="max(100vw, 220vh)">
       <img src="/assets/img/hero/torrens-park-1280.jpg" width="1920" height="799" alt="" fetchpriority="high" decoding="async">
     </picture>
-    <div class="hero-cover"></div>
+    <div class="hero-shutters"><i style="--k:1.000"></i><i style="--k:0.846"></i><i style="--k:0.692"></i><i style="--k:0.538"></i><i style="--k:0.385"></i><i style="--k:0.231"></i><i style="--k:0.077"></i><i style="--k:0.077"></i><i style="--k:0.231"></i><i style="--k:0.385"></i><i style="--k:0.538"></i><i style="--k:0.692"></i><i style="--k:0.846"></i><i style="--k:1.000"></i></div>
     <!-- Line elevation traced over the photograph, in its own pixel space (1920 by 799).
          Five groups in build order; each rises from its own foot. -->
     <svg class="hero-lines" viewBox="0 0 1920 799" preserveAspectRatio="none" focusable="false">
-      <g class="st" style="--t:0.3">
-        <path d="M300 676H1800"/>
-        <path class="hatch" d="M350 700l14-18M380 700l14-18M410 700l14-18M440 700l14-18M470 700l14-18M500 700l14-18M530 700l14-18M560 700l14-18M590 700l14-18M620 700l14-18M650 700l14-18M680 700l14-18M710 700l14-18M740 700l14-18M770 700l14-18M800 700l14-18M830 700l14-18M860 700l14-18M890 700l14-18M920 700l14-18M950 700l14-18M980 700l14-18M1010 700l14-18M1040 700l14-18M1070 700l14-18M1100 700l14-18M1130 700l14-18M1160 700l14-18M1190 700l14-18M1220 700l14-18M1250 700l14-18M1280 700l14-18M1310 700l14-18M1340 700l14-18M1370 700l14-18M1400 700l14-18M1430 700l14-18M1460 700l14-18M1490 700l14-18M1520 700l14-18M1550 700l14-18M1580 700l14-18M1610 700l14-18M1640 700l14-18M1670 700l14-18M1700 700l14-18M1730 700l14-18M1760 700l14-18M1790 700l14-18"/>
-        <path class="thin" d="M330 702H1800"/>
-        <path d="M812 676v-12h80v12M1056 676v-30h132v30"/>
-        <path class="thin" d="M892 664h164"/>
+      <g>
+        <path class="pl" style="--d:0.3" d="M812 676v-12h80v12"/>
+        <path class="pl" style="--d:0.324" d="M1056 676v-30h132v30"/>
+        <path class="ln" style="--d:0.347;transform-origin:300px 676px" d="M300 676H1800"/>
+        <path class="thin ln" style="--d:0.371;transform-origin:330px 702px" d="M330 702H1800"/>
+        <path class="hatch ln" style="--d:0.394;transform-origin:350px 700px" d="M350 700l14-18"/>
+        <path class="hatch ln" style="--d:0.418;transform-origin:380px 700px" d="M380 700l14-18"/>
+        <path class="hatch ln" style="--d:0.442;transform-origin:410px 700px" d="M410 700l14-18"/>
+        <path class="hatch ln" style="--d:0.465;transform-origin:440px 700px" d="M440 700l14-18"/>
+        <path class="hatch ln" style="--d:0.489;transform-origin:470px 700px" d="M470 700l14-18"/>
+        <path class="hatch ln" style="--d:0.512;transform-origin:500px 700px" d="M500 700l14-18"/>
+        <path class="hatch ln" style="--d:0.536;transform-origin:530px 700px" d="M530 700l14-18"/>
+        <path class="hatch ln" style="--d:0.559;transform-origin:560px 700px" d="M560 700l14-18"/>
+        <path class="hatch ln" style="--d:0.583;transform-origin:590px 700px" d="M590 700l14-18"/>
+        <path class="hatch ln" style="--d:0.607;transform-origin:620px 700px" d="M620 700l14-18"/>
+        <path class="hatch ln" style="--d:0.63;transform-origin:650px 700px" d="M650 700l14-18"/>
+        <path class="hatch ln" style="--d:0.654;transform-origin:680px 700px" d="M680 700l14-18"/>
+        <path class="hatch ln" style="--d:0.677;transform-origin:710px 700px" d="M710 700l14-18"/>
+        <path class="hatch ln" style="--d:0.701;transform-origin:740px 700px" d="M740 700l14-18"/>
+        <path class="hatch ln" style="--d:0.725;transform-origin:770px 700px" d="M770 700l14-18"/>
+        <path class="hatch ln" style="--d:0.748;transform-origin:800px 700px" d="M800 700l14-18"/>
+        <path class="hatch ln" style="--d:0.772;transform-origin:830px 700px" d="M830 700l14-18"/>
+        <path class="hatch ln" style="--d:0.795;transform-origin:860px 700px" d="M860 700l14-18"/>
+        <path class="hatch ln" style="--d:0.819;transform-origin:890px 700px" d="M890 700l14-18"/>
+        <path class="thin ln" style="--d:0.842;transform-origin:892px 664px" d="M892 664h164"/>
+        <path class="hatch ln" style="--d:0.866;transform-origin:920px 700px" d="M920 700l14-18"/>
+        <path class="hatch ln" style="--d:0.89;transform-origin:950px 700px" d="M950 700l14-18"/>
+        <path class="hatch ln" style="--d:0.913;transform-origin:980px 700px" d="M980 700l14-18"/>
+        <path class="hatch ln" style="--d:0.937;transform-origin:1010px 700px" d="M1010 700l14-18"/>
+        <path class="hatch ln" style="--d:0.96;transform-origin:1040px 700px" d="M1040 700l14-18"/>
+        <path class="hatch ln" style="--d:0.984;transform-origin:1070px 700px" d="M1070 700l14-18"/>
+        <path class="hatch ln" style="--d:1.008;transform-origin:1100px 700px" d="M1100 700l14-18"/>
+        <path class="hatch ln" style="--d:1.031;transform-origin:1130px 700px" d="M1130 700l14-18"/>
+        <path class="hatch ln" style="--d:1.055;transform-origin:1160px 700px" d="M1160 700l14-18"/>
+        <path class="hatch ln" style="--d:1.078;transform-origin:1190px 700px" d="M1190 700l14-18"/>
+        <path class="hatch ln" style="--d:1.102;transform-origin:1220px 700px" d="M1220 700l14-18"/>
+        <path class="hatch ln" style="--d:1.125;transform-origin:1250px 700px" d="M1250 700l14-18"/>
+        <path class="hatch ln" style="--d:1.149;transform-origin:1280px 700px" d="M1280 700l14-18"/>
+        <path class="hatch ln" style="--d:1.173;transform-origin:1310px 700px" d="M1310 700l14-18"/>
+        <path class="hatch ln" style="--d:1.196;transform-origin:1340px 700px" d="M1340 700l14-18"/>
+        <path class="hatch ln" style="--d:1.22;transform-origin:1370px 700px" d="M1370 700l14-18"/>
+        <path class="hatch ln" style="--d:1.243;transform-origin:1400px 700px" d="M1400 700l14-18"/>
+        <path class="hatch ln" style="--d:1.267;transform-origin:1430px 700px" d="M1430 700l14-18"/>
+        <path class="hatch ln" style="--d:1.291;transform-origin:1460px 700px" d="M1460 700l14-18"/>
+        <path class="hatch ln" style="--d:1.314;transform-origin:1490px 700px" d="M1490 700l14-18"/>
+        <path class="hatch ln" style="--d:1.338;transform-origin:1520px 700px" d="M1520 700l14-18"/>
+        <path class="hatch ln" style="--d:1.361;transform-origin:1550px 700px" d="M1550 700l14-18"/>
+        <path class="hatch ln" style="--d:1.385;transform-origin:1580px 700px" d="M1580 700l14-18"/>
+        <path class="hatch ln" style="--d:1.408;transform-origin:1610px 700px" d="M1610 700l14-18"/>
+        <path class="hatch ln" style="--d:1.432;transform-origin:1640px 700px" d="M1640 700l14-18"/>
+        <path class="hatch ln" style="--d:1.456;transform-origin:1670px 700px" d="M1670 700l14-18"/>
+        <path class="hatch ln" style="--d:1.479;transform-origin:1700px 700px" d="M1700 700l14-18"/>
+        <path class="hatch ln" style="--d:1.503;transform-origin:1730px 700px" d="M1730 700l14-18"/>
+        <path class="hatch ln" style="--d:1.526;transform-origin:1760px 700px" d="M1760 700l14-18"/>
+        <path class="hatch ln" style="--d:1.55;transform-origin:1790px 700px" d="M1790 700l14-18"/>
       </g>
-      <g class="st" style="--t:1.15">
-        <path d="M500 676V356M517 640V402l256-10v240M770 640V300M797 660V296"/>
-        <path class="thin" d="M540 630V419l230-10M540 470l230-8M540 522l230-6M540 574l230-4"/>
-        <path d="M823 664V250M880 664V250M1067 646V250M1177 646V250"/>
-        <path class="thin" d="M1132 646V250M836 520V318h32v202zM1082 520V288h34v232zM1146 520V286h20v234z"/>
-        <path d="M1300 640V236M1313 632l460 16"/>
-        <path d="M1367 568V319l153-10v249M1352 574l184-12M1587 558V302l160-11v257M1572 563l191-12"/>
-        <path class="thin" d="M1403 560V340l103-7v219M1403 452l103-6M1622 550V323l108-7v226M1622 438l108-6M1307 282l446-31"/>
+      <g>
+        <path class="ln" style="--d:1.15;transform-origin:500px 676px" d="M500 676V356"/>
+        <path class="pl" style="--d:1.181" d="M517 640V402l256-10v240"/>
+        <path class="ln" style="--d:1.212;transform-origin:770px 640px" d="M770 640V300"/>
+        <path class="ln" style="--d:1.242;transform-origin:797px 660px" d="M797 660V296"/>
+        <path class="thin pl" style="--d:1.273" d="M540 630V419l230-10"/>
+        <path class="thin ln" style="--d:1.304;transform-origin:540px 470px" d="M540 470l230-8"/>
+        <path class="thin ln" style="--d:1.335;transform-origin:540px 522px" d="M540 522l230-6"/>
+        <path class="thin ln" style="--d:1.365;transform-origin:540px 574px" d="M540 574l230-4"/>
+        <path class="ln" style="--d:1.396;transform-origin:823px 664px" d="M823 664V250"/>
+        <path class="ln" style="--d:1.427;transform-origin:880px 664px" d="M880 664V250"/>
+        <path class="ln" style="--d:1.458;transform-origin:1067px 646px" d="M1067 646V250"/>
+        <path class="ln" style="--d:1.488;transform-origin:1177px 646px" d="M1177 646V250"/>
+        <path class="thin ln" style="--d:1.519;transform-origin:1132px 646px" d="M1132 646V250"/>
+        <path class="thin pl" style="--d:1.55" d="M836 520V318h32v202z"/>
+        <path class="thin pl" style="--d:1.581" d="M1082 520V288h34v232z"/>
+        <path class="thin pl" style="--d:1.612" d="M1146 520V286h20v234z"/>
+        <path class="ln" style="--d:1.642;transform-origin:1300px 640px" d="M1300 640V236"/>
+        <path class="ln" style="--d:1.673;transform-origin:1313px 632px" d="M1313 632l460 16"/>
+        <path class="pl" style="--d:1.704" d="M1367 568V319l153-10v249"/>
+        <path class="ln" style="--d:1.735;transform-origin:1352px 574px" d="M1352 574l184-12"/>
+        <path class="pl" style="--d:1.765" d="M1587 558V302l160-11v257"/>
+        <path class="ln" style="--d:1.796;transform-origin:1572px 563px" d="M1572 563l191-12"/>
+        <path class="thin pl" style="--d:1.827" d="M1403 560V340l103-7v219"/>
+        <path class="thin ln" style="--d:1.858;transform-origin:1403px 452px" d="M1403 452l103-6"/>
+        <path class="thin pl" style="--d:1.888" d="M1622 550V323l108-7v226"/>
+        <path class="thin ln" style="--d:1.919;transform-origin:1622px 438px" d="M1622 438l108-6"/>
+        <path class="thin ln" style="--d:1.95;transform-origin:1307px 282px" d="M1307 282l446-31"/>
       </g>
-      <g class="st" style="--t:2.0">
-        <path d="M923 388v-48a63.5 63.5 0 0 1 127 0v34"/>
-        <path d="M875 386v-38a96 96 0 0 1 192 0"/>
-        <path d="M1186 396v-66a50 62 0 0 1 100 0v66"/>
-        <path class="thin" d="M1177 345a61 80 0 0 1 122 0"/>
-        <path class="thin" d="M960 254h20l-4 24h-12zM1228 264h16l-3 20h-10z"/>
-        <path d="M858 388h72M1040 376h30M1278 396h44"/>
-        <path d="M800 248h92M1052 201h140M807 232l256-29M1185 203l115 32"/>
-        <path d="M775 172l373-75 197 75"/>
-        <path class="thin" d="M1067 122h24v35h-24zM1098 121h25v33h-25zM811 173h22v28h-22zM836 168h22v27h-22z"/>
+      <g>
+        <path class="pl" style="--d:2.0" d="M923 388v-48a63.5 63.5 0 0 1 127 0v34"/>
+        <path class="pl" style="--d:2.047" d="M875 386v-38a96 96 0 0 1 192 0"/>
+        <path class="pl" style="--d:2.094" d="M1186 396v-66a50 62 0 0 1 100 0v66"/>
+        <path class="thin pl" style="--d:2.141" d="M1177 345a61 80 0 0 1 122 0"/>
+        <path class="thin pl" style="--d:2.188" d="M960 254h20l-4 24h-12z"/>
+        <path class="thin pl" style="--d:2.235" d="M1228 264h16l-3 20h-10z"/>
+        <path class="ln" style="--d:2.282;transform-origin:858px 388px" d="M858 388h72"/>
+        <path class="ln" style="--d:2.329;transform-origin:1040px 376px" d="M1040 376h30"/>
+        <path class="ln" style="--d:2.376;transform-origin:1278px 396px" d="M1278 396h44"/>
+        <path class="ln" style="--d:2.424;transform-origin:800px 248px" d="M800 248h92"/>
+        <path class="ln" style="--d:2.471;transform-origin:1052px 201px" d="M1052 201h140"/>
+        <path class="ln" style="--d:2.518;transform-origin:807px 232px" d="M807 232l256-29"/>
+        <path class="ln" style="--d:2.565;transform-origin:1185px 203px" d="M1185 203l115 32"/>
+        <path class="pl" style="--d:2.612" d="M775 172l373-75 197 75"/>
+        <path class="thin pl" style="--d:2.659" d="M1067 122h24v35h-24z"/>
+        <path class="thin pl" style="--d:2.706" d="M1098 121h25v33h-25z"/>
+        <path class="thin pl" style="--d:2.753" d="M811 173h22v28h-22z"/>
+        <path class="thin pl" style="--d:2.8" d="M836 168h22v27h-22z"/>
       </g>
-      <g class="st" style="--t:2.85">
-        <path class="heavy" d="M752 159l396-86 219 90M1285 205l505-70M460 347l313-45M699 284l116-12"/>
-        <path d="M792 148l283-100 73 22M1213 90l237-82 350 69M471 320l352-113"/>
-        <path class="thin" d="M1380 66l36 114M1440 46l38 126M1500 22l38 144M1556 30l38 134M1620 44l36 112M1690 58l34 92M600 300l-10 28M680 268l-12 46M760 238l-10 62"/>
+      <g>
+        <path class="heavy pl" style="--d:2.85" d="M752 159l396-86 219 90"/>
+        <path class="heavy ln" style="--d:2.903;transform-origin:1285px 205px" d="M1285 205l505-70"/>
+        <path class="heavy ln" style="--d:2.957;transform-origin:460px 347px" d="M460 347l313-45"/>
+        <path class="heavy ln" style="--d:3.01;transform-origin:699px 284px" d="M699 284l116-12"/>
+        <path class="pl" style="--d:3.063" d="M792 148l283-100 73 22"/>
+        <path class="pl" style="--d:3.117" d="M1213 90l237-82 350 69"/>
+        <path class="ln" style="--d:3.17;transform-origin:471px 320px" d="M471 320l352-113"/>
+        <path class="thin ln" style="--d:3.223;transform-origin:1380px 66px" d="M1380 66l36 114"/>
+        <path class="thin ln" style="--d:3.277;transform-origin:1440px 46px" d="M1440 46l38 126"/>
+        <path class="thin ln" style="--d:3.33;transform-origin:1500px 22px" d="M1500 22l38 144"/>
+        <path class="thin ln" style="--d:3.383;transform-origin:1556px 30px" d="M1556 30l38 134"/>
+        <path class="thin ln" style="--d:3.437;transform-origin:1620px 44px" d="M1620 44l36 112"/>
+        <path class="thin ln" style="--d:3.49;transform-origin:1690px 58px" d="M1690 58l34 92"/>
+        <path class="thin ln" style="--d:3.543;transform-origin:600px 300px" d="M600 300l-10 28"/>
+        <path class="thin ln" style="--d:3.597;transform-origin:680px 268px" d="M680 268l-12 46"/>
+        <path class="thin ln" style="--d:3.65;transform-origin:750px 300px" d="M760 238l-10 62"/>
       </g>
-      <g class="st" style="--t:3.7">
-        <path class="heavy" d="M830 400V799M1783 350V799"/>
-        <path d="M453 497l370-3M453 535l370-2M850 476h933M850 540h933"/>
-        <path d="M1920 118l-137 22-76 38v22l50 50v90l26 10M300 799V462h127v337M280 460l3-58 47-50h75l45 48 3 60z"/>
-        <path class="thin" d="M493 440V799M515 439V799M540 438V799M565 437V799M590 436V799M617 435V799M643 434V799M672 433V799M701 432V799M730 431V799M763 430V799M798 429V799M870 412V799M907 410V799M945 408V799M987 406V799M1028 404V799M1071 403V799M1117 402V799M1163 400V799M1213 398V799M1267 397V799M1320 396V799M1375 396V799M1433 395V799M1495 394V799M1560 393V799M1627 392V799M1697 391V799"/>
+      <g>
+        <path class="pl" style="--d:3.7" d="M280 460l3-58 47-50h75l45 48 3 60z"/>
+        <path class="pl" style="--d:3.734" d="M300 799V462h127v337"/>
+        <path class="heavy ln" style="--d:3.768;transform-origin:830px 799px" d="M830 400V799"/>
+        <path class="heavy ln" style="--d:3.801;transform-origin:1783px 799px" d="M1783 350V799"/>
+        <path class="pl" style="--d:3.835" d="M1920 118l-137 22-76 38v22l50 50v90l26 10"/>
+        <path class="ln" style="--d:3.869;transform-origin:453px 497px" d="M453 497l370-3"/>
+        <path class="ln" style="--d:3.903;transform-origin:453px 535px" d="M453 535l370-2"/>
+        <path class="thin ln" style="--d:3.936;transform-origin:493px 799px" d="M493 440V799"/>
+        <path class="thin ln" style="--d:3.97;transform-origin:515px 799px" d="M515 439V799"/>
+        <path class="thin ln" style="--d:4.004;transform-origin:540px 799px" d="M540 438V799"/>
+        <path class="thin ln" style="--d:4.038;transform-origin:565px 799px" d="M565 437V799"/>
+        <path class="thin ln" style="--d:4.072;transform-origin:590px 799px" d="M590 436V799"/>
+        <path class="thin ln" style="--d:4.105;transform-origin:617px 799px" d="M617 435V799"/>
+        <path class="thin ln" style="--d:4.139;transform-origin:643px 799px" d="M643 434V799"/>
+        <path class="thin ln" style="--d:4.173;transform-origin:672px 799px" d="M672 433V799"/>
+        <path class="thin ln" style="--d:4.207;transform-origin:701px 799px" d="M701 432V799"/>
+        <path class="thin ln" style="--d:4.241;transform-origin:730px 799px" d="M730 431V799"/>
+        <path class="thin ln" style="--d:4.274;transform-origin:763px 799px" d="M763 430V799"/>
+        <path class="thin ln" style="--d:4.308;transform-origin:798px 799px" d="M798 429V799"/>
+        <path class="ln" style="--d:4.342;transform-origin:850px 476px" d="M850 476h933"/>
+        <path class="ln" style="--d:4.376;transform-origin:850px 540px" d="M850 540h933"/>
+        <path class="thin ln" style="--d:4.409;transform-origin:870px 799px" d="M870 412V799"/>
+        <path class="thin ln" style="--d:4.443;transform-origin:907px 799px" d="M907 410V799"/>
+        <path class="thin ln" style="--d:4.477;transform-origin:945px 799px" d="M945 408V799"/>
+        <path class="thin ln" style="--d:4.511;transform-origin:987px 799px" d="M987 406V799"/>
+        <path class="thin ln" style="--d:4.545;transform-origin:1028px 799px" d="M1028 404V799"/>
+        <path class="thin ln" style="--d:4.578;transform-origin:1071px 799px" d="M1071 403V799"/>
+        <path class="thin ln" style="--d:4.612;transform-origin:1117px 799px" d="M1117 402V799"/>
+        <path class="thin ln" style="--d:4.646;transform-origin:1163px 799px" d="M1163 400V799"/>
+        <path class="thin ln" style="--d:4.68;transform-origin:1213px 799px" d="M1213 398V799"/>
+        <path class="thin ln" style="--d:4.714;transform-origin:1267px 799px" d="M1267 397V799"/>
+        <path class="thin ln" style="--d:4.747;transform-origin:1320px 799px" d="M1320 396V799"/>
+        <path class="thin ln" style="--d:4.781;transform-origin:1375px 799px" d="M1375 396V799"/>
+        <path class="thin ln" style="--d:4.815;transform-origin:1433px 799px" d="M1433 395V799"/>
+        <path class="thin ln" style="--d:4.849;transform-origin:1495px 799px" d="M1495 394V799"/>
+        <path class="thin ln" style="--d:4.882;transform-origin:1560px 799px" d="M1560 393V799"/>
+        <path class="thin ln" style="--d:4.916;transform-origin:1627px 799px" d="M1627 392V799"/>
+        <path class="thin ln" style="--d:4.95;transform-origin:1697px 799px" d="M1697 391V799"/>
       </g>
       <path class="level" style="--t:1.2" d="M1560 676l-9-14h18z"/>
     </svg>
-  </div>
+  </div></div>
 
   <p class="pictured label">Pictured: new home, Torrens Park, 550 sqm, built Dec 2012 to Dec 2013</p>
   <ol class="stages label" aria-label="The order of a build">
@@ -127,7 +252,7 @@
 
   <div class="wrap">
     <p class="hero-kicker label"><i class="beam" aria-hidden="true"></i>Adelaide, South Australia</p>
-    <h1 class="shout" id="hero-title"><span style="--w:1">Traditional</span> <span style="--w:2">Master Builders.</span></h1>
+    <h1 class="shout" id="hero-title"><span style="--w:1"><b>Traditional</b></span> <span style="--w:2"><b>Master Builders.</b></span></h1>
     <div class="hero-row">
       <p class="lede" style="--w:3">On site and hands on. Second generation Adelaide builders of renovations and extensions, new homes, developments and commercial work, run with regular on site meetings.</p>
       <div class="hero-actions" id="hero-actions" style="--w:4">
