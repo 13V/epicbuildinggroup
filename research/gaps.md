@@ -52,9 +52,28 @@ fill the hole.
     mostly renovations, or no small jobs, the order and the form should say so.
 17. **Service area and minimum job size**, if any.
 
+## Found while building the full site (phase 3)
+
+18. **Projects with no photographs of the finished work** on his site, only before or during:
+    torrensville, st-peters-renovation, hyde-park, banksia-park, bridgewater, cross-road-highgate. Each of those pages says so in a marked note. Finished photographs
+    would complete them.
+19. **Photographs left out on purpose**: six that show a recognisable face (workers or the owner
+    on site), two computer renders on the Newton page (one looks like a stock image of a couple),
+    and near-duplicates. If Peter wants the people shots in, the people should agree first.
+20. **Real "before" photographs exist** for Hyde Park and Golfview Heights (they carry a BEFORE
+    stamp). Other projects only have "during" shots, so their pairs are labelled "During", not
+    "Before". Any true before photos would be worth having.
+21. **Alt text and stage labels were written by looking at each photograph**, not supplied by
+    Epic. Peter or the site supervisor should skim the build sequences for anything out of order.
+22. **Process page**: three marked gaps (who lodges approvals and how long they take; how often
+    site meetings are held and who attends; what happens after handover).
+23. **About page**: team names, roles and portraits.
+
 ## Placeholders in the demo right now
 
-- `/contact` is a stub. The enquiry form is phase 3.
-- The six "first thing we will ask" questions in the planner are ours, written as sensible
-  opening questions. They are not claims about Epic; Peter should replace them with his own.
-- Header links to Projects, Services, Process and About go nowhere yet.
+- The enquiry form validates and shows its success state but sends nowhere. The hook is
+  `sendEnquiry()` in `assets/js/epic.js`.
+- Rostrevor's dates are shown as "to confirm" because the published ones are impossible.
+- Projects with no published year show "To confirm: year".
+- The six "first thing we will ask" questions in the planner and the form are ours, written as
+  sensible opening questions. They are not claims about Epic; Peter should replace them with his own.

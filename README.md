@@ -10,8 +10,14 @@ site. Every page is `noindex`, there is no sitemap, and `vercel.json` sends `X-R
 - `research/` is the brief's paper trail (client facts, competitors, Mobbin references, direction,
   gaps). It is in `.vercelignore`, so it is never served.
 
-Status: phase 2. The homepage hero and the section under it prove the direction
-(`research/direction.md`). Nothing else is built until the direction is agreed.
+Status: phase 3 built. Home, projects index, 35 project pages, services, process, about, contact
+and 404.
+
+The 35 project pages share one layout, so they are written by a small script rather than by hand:
+`python3 tools/build.py` rewrites every page from `tools/projects.py` (the facts), `tools/pages.py`
+(the layouts) and `tools/photos.json` (which photograph goes where, with alt text). The HTML it
+writes is committed and is what Vercel serves; nothing is built at deploy time. `tools/` is in
+`.vercelignore`.
 
 Rules: only facts from epicbuildinggroup.com.au; their own photographs; anything missing goes in
 `research/gaps.md`, never invented.

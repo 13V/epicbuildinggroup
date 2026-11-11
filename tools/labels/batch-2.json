@@ -1,0 +1,2280 @@
+{
+ "ashford": {
+  "hero": "/images/pr_ashford/ashford_21.jpg",
+  "order": [
+   "/images/pr_ashford/ashford_21.jpg",
+   "/images/pr_ashford/ashford_15.jpg",
+   "/images/pr_ashford/ashford_39.jpg",
+   "/images/pr_ashford/ashford_18.jpg",
+   "/images/pr_ashford/ashford_29.jpg",
+   "/images/pr_ashford/ashford_35.jpg",
+   "/images/pr_ashford/ashford_25.jpg",
+   "/images/pr_ashford/ashford_30.jpg",
+   "/images/pr_ashford/ashford_28.jpg",
+   "/images/pr_ashford/ashford_27.jpg",
+   "/images/pr_ashford/ashford_26.jpg",
+   "/images/pr_ashford/ashford_22.jpg",
+   "/images/pr_ashford/ashford_31.jpg",
+   "/images/pr_ashford/ashford_32.jpg",
+   "/images/pr_ashford/ashford_23.jpg",
+   "/images/pr_ashford/ashford_33.jpg",
+   "/images/pr_ashford/ashford_34.jpg",
+   "/images/pr_ashford/ashford_36.jpg"
+  ],
+  "stages": [
+   "/images/pr_ashford/ashford_1.jpg",
+   "/images/pr_ashford/ashford_6.jpg",
+   "/images/pr_ashford/ashford_7.jpg",
+   "/images/pr_ashford/ashford_11.jpg",
+   "/images/pr_ashford/ashford_12.jpg"
+  ],
+  "pair": null,
+  "notes": "Mostly site works photographed with workers and machinery (no face-level portraits), then finished interiors. Three-home development; photos appear to show one of the homes. Signage in ashford_10 is a distant builder sign.",
+  "images": [
+   {
+    "file": "/images/pr_ashford/ashford_1.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Cleared house site with a worker in a red shirt walking across bare earth, excavators and a skid-steer behind",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_2.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Skid-steer loader and a worker with a rake levelling bare earth on the development site",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_3.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Excavator, skid-steer and workers on a bare dirt site with mounds of soil behind a white fence",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_4.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": true,
+    "alt": "Worker on a small yellow roller compacting soil, with a skid-steer behind on the cleared site",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_5.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Mini excavator digging a narrow footing trench on the site while a worker in red checks the line",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_6.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Mini excavator and a worker in red beside a freshly dug footing trench with a string line",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_7.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Excavator digging a long footing trench along a boundary fence while a worker stands in the trench",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_8.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Long straight footing trench across the site with an excavator and workers at the far end",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_9.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Excavator beside deep footing trenches in brown soil, with a second machine behind",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_10.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Street frontage of the site with a truck and tilt trailer parked on the road and earthmoving machines inside",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_ashford/ashford_11.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Large concrete slab poured across the site, with excavators and a roller in the background",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_12.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Concrete slab with stepped edges and survey stakes, machinery waiting beyond the boundary fence",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_13.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Close view of the edge of a poured concrete slab with orange sediment fencing at the boundary",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_14.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "New single-storey house with pale rendered walls and a dark hip roof, driveway newly poured and site still untidy",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_15.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Corner of a new rendered house with a dark roof, large window and brick pier beside the driveway",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_18.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Covered outdoor area with a pergola over a paved courtyard beside a pale brick wall",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_21.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Front of a new rendered house with a central entry portico, timber front door, letterboxes and new lawn",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_22.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Empty room with timber floor, ceiling fan and a black-framed window beside an open doorway",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_23.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with marble-look tiles, glass shower screen, black tapware and a timber vanity with a round basin",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_24.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Empty room with timber floor, ceiling fan and a window, with doorways to the left",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_25.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Open-plan kitchen with white island bench, pendant lights and timber floor, front door visible at right",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_26.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Long hallway with timber floor and doorways, seen past an open timber-edged door",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_27.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen sink with a tall curved mixer tap, white cabinets, gas cooktop and wall oven",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_28.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Empty living area with timber floor and glass sliding doors opening to a covered outdoor area",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_29.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "dining",
+    "people": false,
+    "alt": "Covered outdoor living area with a timber-lined ceiling, ceiling fans, tiled floor and sliding doors",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_30.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with white island bench, two pendant lights, overhead cupboards and a gas cooktop",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_31.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Bedroom with timber floor, doorway to a walk-in robe and ensuite, and a ceiling fan",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_32.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Bedroom with grey carpet, mirrored built-in robe, ceiling fan and large corner window",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_33.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with twin round basins, timber vanity, black tapware and marble-look wall tiles",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ashford/ashford_34.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with a freestanding bath, shower with glass screen and a vanity with a round basin",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_35.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Glass sliding doors from the covered outdoor area, with the kitchen and timber floor visible inside",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_36.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "laundry",
+    "people": false,
+    "alt": "Laundry with a white bench, small sink, tiled floor and a door with a glazed panel",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_37.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with a freestanding bath beside a glass shower screen and marble-look wall tiles",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_38.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Covered outdoor area with timber ceiling, tiled floor, ceiling fans and slatted screen fencing",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ashford/ashford_39.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Rear of a new house with pale rendered walls, a dark hip roof and a concrete driveway beside a dark fence",
+    "score": 4
+   }
+  ]
+ },
+ "cross_rd_highgate": {
+  "hero": "/images/pr_crossroad/crossroad_9.jpg",
+  "order": [],
+  "stages": [
+   "/images/pr_crossroad/crossroad_1.jpg",
+   "/images/pr_crossroad/crossroad_5.jpg",
+   "/images/pr_crossroad/crossroad_7.jpg",
+   "/images/pr_crossroad/crossroad_9.jpg",
+   "/images/pr_crossroad/crossroad_12.jpg",
+   "/images/pr_crossroad/crossroad_6.jpg",
+   "/images/pr_crossroad/crossroad_8.jpg",
+   "/images/pr_crossroad/crossroad_14.jpg",
+   "/images/pr_crossroad/crossroad_17.jpg",
+   "/images/pr_crossroad/crossroad_19.jpg",
+   "/images/pr_crossroad/crossroad_13.jpg",
+   "/images/pr_crossroad/crossroad_15.jpg",
+   "/images/pr_crossroad/crossroad_20.jpg"
+  ],
+  "pair": null,
+  "notes": "Only in-progress photos, no finished images; hero is the best in-progress frame shot. crossroad_16 shows a van with company lettering; crossroad_10 shows a worker from behind.",
+  "images": [
+   {
+    "file": "/images/pr_crossroad/crossroad_1.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Street view of townhouses under construction behind trees, with timber frames and scaffolding beside finished neighbours",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_2.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey timber frames with scaffolding behind a temporary fence, seen from across the street",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_3.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Timber wall frames and scaffolding on a two-storey townhouse behind temporary fencing, with a truck parked in front",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_4.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Street view of two timber-framed townhouse blocks with scaffolding, seen between bare trees",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_5.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Steel beam and timber wall frames standing on a slab, with dirt ground in front",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_6.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Timber-framed townhouses with steel posts and beams on a muddy site, scaffolding in the background",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_7.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey timber frame with sheet bracing and a lower pitched roof frame, under a clear blue sky",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_8.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "View up into a roof of timber rafters and bracing supported by studs and a steel beam",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_9.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey timber frame with sheet-braced walls and a lower roof frame, with building materials in the foreground",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_10.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Worker in orange high-visibility sitting on a steel beam with timber wall framing below",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_11.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey timber frame with scaffolding beside a neighbouring house, with timber and tools on the ground",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_12.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Wide view of several timber-framed townhouses with steel beams standing on dirt, long shadows across the site",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_13.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Row of townhouses with scaffolding and blue sheeting behind site fencing, a vehicle parked on the dirt lane",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_14.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Timber-framed ground and upper floors inside scaffolding, with steel beams and sheet bracing",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_15.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Upper storey clad in white with small windows above a timber-framed lower level, pipes and timber on the ground",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_16.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Scaffolding and framed upper floors above a white work van parked on dirt, with building materials stacked nearby",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_17.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Inside a timber-framed ground floor with roof trusses overhead, scaffold poles and plasterboard stacked at left",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_18.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Inside a timber-framed two-storey townhouse with open stair void, concrete floor and roof framing",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_19.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Timber-framed living area with black sliding glass doors installed and roof trusses overhead",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_crossroad/crossroad_20.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Rear of a townhouse with a white clad upper storey and a framed ground floor, building offcuts on the ground",
+    "score": 3
+   }
+  ]
+ },
+ "glenelg": {
+  "hero": "/images/pr_glenelg/glenelg_16.jpg",
+  "order": [
+   "/images/pr_glenelg/glenelg_16.jpg",
+   "/images/pr_glenelg/glenelg_18.jpg",
+   "/images/pr_glenelg/glenelg_19.jpg",
+   "/images/pr_glenelg/glenelg_22.jpg",
+   "/images/pr_glenelg/glenelg_20.jpg",
+   "/images/pr_glenelg/glenelg_21.jpg",
+   "/images/pr_glenelg/glenelg_23.jpg",
+   "/images/pr_glenelg/glenelg_24.jpg"
+  ],
+  "stages": [
+   "/images/pr_glenelg/glenelg_3.jpg",
+   "/images/pr_glenelg/glenelg_2.jpg",
+   "/images/pr_glenelg/glenelg_1.jpg",
+   "/images/pr_glenelg/glenelg_6.jpg",
+   "/images/pr_glenelg/glenelg_4.jpg",
+   "/images/pr_glenelg/glenelg_9.jpg",
+   "/images/pr_glenelg/glenelg_12.jpg",
+   "/images/pr_glenelg/glenelg_13.jpg",
+   "/images/pr_glenelg/glenelg_14.jpg",
+   "/images/pr_glenelg/glenelg_7.jpg",
+   "/images/pr_glenelg/glenelg_8.jpg"
+  ],
+  "pair": null,
+  "notes": "glenelg_10 shows developer and builder signage boards and glenelg_17 shows a house number plate with a street name, so both are left out of the gallery. Finished photos are dusk or flash-lit.",
+  "images": [
+   {
+    "file": "/images/pr_glenelg/glenelg_3.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Timber-framed upper level above a fenced ground floor on a coastal street, with timber stacked behind site fencing",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_4.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Inside a framed three-storey building with roof trusses, brick wall and timber bracing on a concrete floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_2.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Crane lifting a panel on a narrow street beside a timber-framed building, with power lines overhead",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_1.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Workers beside a crane-lifted panel on a timber floor with wall frames standing on the upper level",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_5.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Crane boom and power lines above a street with timber framing at left and buildings beyond",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_6.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Crane lowering a load beside a timber-framed building, with road-closed signs and traffic cones in the street",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_7.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Rear lane view of a two-storey building with scaffolding, brick and grey sheeted walls",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_8.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Upper-level balcony with scaffolding and a blue waterproof membrane, overlooking the street and neighbouring houses",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_9.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Inside a long unlined ground floor with exposed roof trusses, brick wall and timber lengths stacked at left",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_10.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Street frontage with scaffolding and builder's signage boards, brick walls and stacked bricks on dirt",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_11.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Unlined timber-framed room with a ladder, exposed roof trusses and sliding glass doors at right",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_12.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Unlined timber-framed interior with a stair stringer climbing toward a wrapped duct and exposed roof trusses",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_13.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Frame with large glazing openings and dark steel posts looking out to scaffolding and neighbouring roofs",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_14.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey frontage with scaffolding and a low brick wall, builder's sign on the fence and a ute parked in front",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_15.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Close view of large grey stone-look floor tiles with a square drain",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_16.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Three-level white rendered house at dusk with lit windows, a roof terrace and a timber-clad gate",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_17.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Entry gate with timber slats, intercom, letterbox and a house number plate set in rendered walls",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_18.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Rear courtyard at dusk with lawn, plants, ground lights and floor-to-ceiling glass doors with white curtains",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_19.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Rear glass doors lit from inside at dusk, looking onto a courtyard with lawn and tropical plants",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_20.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Open stair with timber treads and glass balustrade beside a kitchen with a marble-look island bench",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_21.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with a marble-look island bench with waterfall ends, pendant lights and timber floor",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_22.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Courtyard with pale gravel, a built-in barbecue and plants lit at the base of a white wall",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_23.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with a wide mirror, floating white vanity and dark stone-look wall tiles",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_glenelg/glenelg_24.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with a built-in bath, white vanity with mixer tap and dark and pale tiled walls",
+    "score": 3
+   }
+  ]
+ },
+ "golfviewheights": {
+  "hero": "/images/pr_other/golfviewheights_7.jpg",
+  "order": [
+   "/images/pr_other/golfviewheights_7.jpg",
+   "/images/pr_other/golfviewheights_5.jpg",
+   "/images/pr_other/golfviewheights_6.jpg"
+  ],
+  "stages": [
+   "/images/pr_other/golfviewheights_1.jpg",
+   "/images/pr_other/golfviewheights_1a.jpg",
+   "/images/pr_other/golfviewheights_2.jpg",
+   "/images/pr_other/golfviewheights_3.jpg",
+   "/images/pr_other/golfviewheights_4.jpg"
+  ],
+  "pair": {
+   "earlier": "/images/pr_other/golfviewheights_1.jpg",
+   "finished": "/images/pr_other/golfviewheights_7.jpg",
+   "earlier_label": "Before"
+  },
+  "notes": "Photos 1 and 1a carry a baked-in BEFORE watermark. Phone-quality images. The earlier photo 1 is a close match to the finished street view 7.",
+  "images": [
+   {
+    "file": "/images/pr_other/golfviewheights_1.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Existing single-storey house with a carport, entry steps and a sloping driveway, marked as the before photo",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_other/golfviewheights_1a.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Existing single-storey house with a double garage and stone-faced piers before the extension, marked as before",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_other/golfviewheights_2.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey frontage under construction with scaffolding, blue sheeting on the upper level and a site toilet beside the driveway",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_other/golfviewheights_3.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "New upper storey with scaffolding and ladders over the garages, loose dirt in front of the driveway",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_other/golfviewheights_4.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey house front with scaffolding across the upper level and a ladder against the wall, dirt in front",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_other/golfviewheights_5.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Two-storey house front with stone-look cladding, arched windows, a balcony with glass balustrade and three garage doors",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_other/golfviewheights_6.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Two-storey front with stone-look cladding and three garage doors, with a skip bin and new driveway in front",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_other/golfviewheights_7.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Two-storey house with stone-look lower level, balcony, three garage doors and landscaped rock garden on the street",
+    "score": 4
+   }
+  ]
+ },
+ "highgate": {
+  "hero": "/images/pr_highgate/highgate_18.jpg",
+  "order": [
+   "/images/pr_highgate/highgate_18.jpg",
+   "/images/pr_highgate/highgate_19.jpg",
+   "/images/pr_highgate/highgate_20.jpg",
+   "/images/pr_highgate/highgate_23.jpg",
+   "/images/pr_highgate/highgate_36.jpg",
+   "/images/pr_highgate/highgate_35.jpg",
+   "/images/pr_highgate/highgate_25.jpg",
+   "/images/pr_highgate/highgate_22.jpg",
+   "/images/pr_highgate/highgate_24.jpg",
+   "/images/pr_highgate/highgate_26.jpg",
+   "/images/pr_highgate/highgate_27.jpg",
+   "/images/pr_highgate/highgate_29.jpg",
+   "/images/pr_highgate/highgate_38.jpg",
+   "/images/pr_highgate/highgate_28.jpg",
+   "/images/pr_highgate/highgate_30.jpg",
+   "/images/pr_highgate/highgate_33.jpg",
+   "/images/pr_highgate/highgate_34.jpg",
+   "/images/pr_highgate/highgate_37.jpg",
+   "/images/pr_highgate/highgate_32.jpg",
+   "/images/pr_highgate/highgate_21.jpg"
+  ],
+  "stages": [
+   "/images/pr_highgate/highgate_1.jpg",
+   "/images/pr_highgate/highgate_2.jpg",
+   "/images/pr_highgate/highgate_3.jpg",
+   "/images/pr_highgate/highgate_5.jpg",
+   "/images/pr_highgate/highgate_6.jpg",
+   "/images/pr_highgate/highgate_7.jpg",
+   "/images/pr_highgate/highgate_10.jpg",
+   "/images/pr_highgate/highgate_15.jpg",
+   "/images/pr_highgate/highgate_8.jpg",
+   "/images/pr_highgate/highgate_12.jpg",
+   "/images/pr_highgate/highgate_11.jpg",
+   "/images/pr_highgate/highgate_13.jpg",
+   "/images/pr_highgate/highgate_14.jpg"
+  ],
+  "pair": null,
+  "notes": "Large project with strong finished photos. highgate_3 has two men near the camera inspecting roof trusses. No pair given because the earlier and finished views are from different angles.",
+  "images": [
+   {
+    "file": "/images/pr_highgate/highgate_1.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Timber-framed townhouses with a sheeted upper-floor deck, utes parked and building materials on dirt below",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_2.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Upper-floor timber wall frames and floor deck with a worker inside, trees beyond",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_3.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": true,
+    "alt": "Two men inspecting roof trusses on top of a dark brick wall at upper level",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_4.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Aerial-style view over a timber-framed townhouse with steel beams and building materials on the ground",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_5.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Dark brick walls rising inside scaffolding, with a cement mixer, bricks and tools on the ground",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_6.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Two-storey dark brick wall seen along its length with scaffolding at both levels",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_7.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Worker fitting a window opening in a wall clad in dark sheeting, with scaffolding beyond",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_8.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Inside an unlined timber frame with a steel beam, roof trusses and stacked building materials, with a truck outside",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_9.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Dark brick walls and scaffolding around two townhouses seen from under a roof overhang",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_10.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Two brick townhouses with scaffolding facing each other across a dirt courtyard, with pallets of materials",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_11.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Room lined with plasterboard and sliding glass doors, with building materials on the floor",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_12.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Long unlined timber-framed room with windows, sunlight on the floor and roof framing overhead",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_13.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Laundry joinery being installed with an unfinished benchtop and a doorway to a hallway",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_14.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Tiled bathroom with a bath and shower recess before fittings are installed, with a protected floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_15.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Two dark brick townhouses with scaffolding and a sandy yard in front, stacked pipes at left",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_16.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Open living and kitchen area with polished tile floor, timber-look joinery and an entry door at the far end",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_17.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Street view of two townhouses behind site fencing, a work van and ute parked in front",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_18.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Pair of two-storey townhouses with dark brick, timber-look cladding and garage doors, lit at dusk",
+    "score": 5
+   },
+   {
+    "file": "/images/pr_highgate/highgate_19.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Townhouse front with dark brick, timber-look upper cladding, a lit entry and garage door at dusk",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_20.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Two-storey townhouse with pale render and dark brick, carport, lawn and fenced rear yard under a blue sky",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_21.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Entry door with a tall timber panel and glazed side panels set in dark brick, with a tiled floor beyond",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_22.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Open living and kitchen area with polished tile floor, white cabinets and a timber-look kitchen island",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_23.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Covered courtyard with dark brick walls, pebble paving, a timber pergola and sliding glass door",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_24.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Living and kitchen area with polished tile floor, sliding doors to the yard and sun across the floor",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_25.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen and living area with a timber-look island, white tall cupboards and polished tile floor",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_26.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with timber-look cabinets and white tall cupboards beside a polished tile floor",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_27.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen and living area seen from the entry end, with an island bench and tall white cupboards",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_28.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with a built-in bath, floating vanity, glass shower screen and large-format tiles",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_29.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Carpeted bedroom with a mirrored robe door and two windows with frosted glass panels",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_30.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "laundry",
+    "people": false,
+    "alt": "Laundry with a benchtop sink and overhead cupboards, with a toilet visible through an open door",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_31.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Narrow cabinetry with an open shelf and benchtop beside a doorway, partly cropped",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_highgate/highgate_32.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Covered balcony with dark tiled floor, white rendered balustrade and a view over neighbouring rooftops",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_33.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Walk-in robe with timber-look shelves, drawers and a hanging rail",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_34.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Carpeted hallway with a built-in desk nook, a handrail and doors leading to other rooms",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_35.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Fenced rear yard with new lawn, a rainwater tank and gravel path along the boundary",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_36.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Covered timber deck with exposed rafters beside a dark brick wall and sliding glass doors",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_highgate/highgate_37.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Upstairs landing with a stair void, tall frosted windows and white built-in robes",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_highgate/highgate_38.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Carpeted bedroom with corner windows and a mirrored sliding robe door",
+    "score": 3
+   }
+  ]
+ },
+ "marleston": {
+  "hero": "/images/pr_marleston/marleston_11.jpg",
+  "order": [
+   "/images/pr_marleston/marleston_11.jpg",
+   "/images/pr_marleston/marleston_10.jpg",
+   "/images/pr_marleston/marleston_14.jpg",
+   "/images/pr_marleston/marleston_12.jpg",
+   "/images/pr_marleston/marleston_17.jpg",
+   "/images/pr_marleston/marleston_13.jpg",
+   "/images/pr_marleston/marleston_16.jpg",
+   "/images/pr_marleston/marleston_15.jpg"
+  ],
+  "stages": [
+   "/images/pr_marleston/marleston_1.jpg",
+   "/images/pr_marleston/marleston_7.jpg",
+   "/images/pr_marleston/marleston_9.jpg",
+   "/images/pr_marleston/marleston_2.jpg",
+   "/images/pr_marleston/marleston_3.jpg",
+   "/images/pr_marleston/marleston_8.jpg",
+   "/images/pr_marleston/marleston_4.jpg"
+  ],
+  "pair": {
+   "earlier": "/images/pr_marleston/marleston_1.jpg",
+   "finished": "/images/pr_marleston/marleston_11.jpg",
+   "earlier_label": "Before"
+  },
+  "notes": "Commercial gym fitout, not a home. marleston_11 shows a franchise brand name on the sign, and marleston_6 shows vehicles with company lettering and a number plate. The pair is the building front before the refurbishment and after.",
+  "images": [
+   {
+    "file": "/images/pr_marleston/marleston_1.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Existing two-storey commercial building with a glass frontage and street trees, before the refurbishment",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_2.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Open interior with ceiling grid and plasterboard sheets, three workers handling sheets in the distance",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_3.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Large open space with plasterboard stacked against walls, large windows and exposed ceiling services",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_4.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Plasterboard-lined wall with cubicle partitions and a doorway being formed in a bare room",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_5.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Narrow entry space with a blue wall panel, a switchboard and a doorway to the outside",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_marleston/marleston_6.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Rear service area beside a large blank wall, with a work ute and a trailer parked on pavers",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_marleston/marleston_7.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Stripped-back open warehouse interior with ceiling grid, a pallet truck and stacked boards",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_8.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Open space with new plasterboard walls, steel framing lengths on the floor and partial ceiling grid above",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_9.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Empty open interior with a partial ceiling grid, bare concrete floor and building materials against the wall",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_10.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "gym",
+    "people": false,
+    "alt": "Gym floor with weight machines, bench stations, rubber flooring and blue and orange feature walls",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_marleston/marleston_11.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Street frontage of the refurbished building with a glass front and a large illuminated fitness club sign",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_marleston/marleston_12.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "gym",
+    "people": false,
+    "alt": "Row of treadmills facing windows and wall-mounted screens, with timber-look flooring and a blue column",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_13.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Changeroom wash area with basins, mirror and toilet cubicles with grey partitions",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_14.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "gym",
+    "people": false,
+    "alt": "Wide gym floor with multi-station weight machine, free weights and orange and blue walls under bright ceiling lights",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_marleston/marleston_15.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Narrow corridor with doors on the left, ceiling lights and a dark rubber floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_16.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Accessible bathroom with grab rails, a toilet, shower and bench seat on a tiled floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_marleston/marleston_17.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "gym",
+    "people": false,
+    "alt": "Open training area with a power rack, rowing machine, battle ropes and a blue feature wall",
+    "score": 4
+   }
+  ]
+ },
+ "myrtlebank": {
+  "hero": "/images/pr_other/myrtlebank_1.jpg",
+  "order": [
+   "/images/pr_other/myrtlebank_1.jpg"
+  ],
+  "stages": [],
+  "pair": null,
+  "notes": "Only one image, a phone-quality street shot with a small sign at the left edge.",
+  "images": [
+   {
+    "file": "/images/pr_other/myrtlebank_1.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Split-level duplex with grey rendered walls, double garages, glass-balustrade balconies and a tall central chimney element",
+    "score": 3
+   }
+  ]
+ },
+ "ovingham": {
+  "hero": "/images/pr_ovingham/ovingham_15.jpg",
+  "order": [
+   "/images/pr_ovingham/ovingham_13.jpg",
+   "/images/pr_ovingham/ovingham_15.jpg",
+   "/images/pr_ovingham/ovingham_16.jpg",
+   "/images/pr_ovingham/ovingham_17.jpg"
+  ],
+  "stages": [
+   "/images/pr_ovingham/ovingham_1.jpg",
+   "/images/pr_ovingham/ovingham_7.jpg",
+   "/images/pr_ovingham/ovingham_3.jpg",
+   "/images/pr_ovingham/ovingham_2.jpg",
+   "/images/pr_ovingham/ovingham_6.jpg",
+   "/images/pr_ovingham/ovingham_5.jpg",
+   "/images/pr_ovingham/ovingham_4.jpg",
+   "/images/pr_ovingham/ovingham_8.jpg",
+   "/images/pr_ovingham/ovingham_9.jpg",
+   "/images/pr_ovingham/ovingham_11.jpg"
+  ],
+  "pair": {
+   "earlier": "/images/pr_ovingham/ovingham_6.jpg",
+   "finished": "/images/pr_ovingham/ovingham_15.jpg",
+   "earlier_label": "During"
+  },
+  "notes": "The finished photos are near-complete rather than fully finished (pool unfilled, cones at the street gate). ovingham_1 shows a builder banner on the fence.",
+  "images": [
+   {
+    "file": "/images/pr_ovingham/ovingham_1.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Existing street-front cottage behind an iron gate, with a skip bin, cement mixer and builder's banner on the fence",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_2.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Rear of the house with scaffolding around a new upper-level frame and bracing planks in the foreground",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_3.jpg",
+    "kind": "in-progress",
+    "stage": "frame",
+    "room": "",
+    "people": false,
+    "alt": "Concrete pool shell in the foreground with scaffolding around the new two-storey extension behind",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_4.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Interior with steel ceiling framing, partly plastered walls and original brickwork exposed",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_5.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Timber-framed wall wrapped in foil insulation beside a painted brick wall, with building offcuts on the floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_6.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Rear extension with glazed upper storey, concrete pool steps and a stone-faced block in front, a ute parked at left",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_7.jpg",
+    "kind": "in-progress",
+    "stage": "site",
+    "room": "",
+    "people": false,
+    "alt": "Side of the existing cottage with damaged stonework at the base and the new extension rising behind",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_8.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Room with plasterboard walls and ceiling and joints still to be finished, tools and cleaning supplies on the floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_9.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Folding glass doors installed across a corner of a room with plasterboard ceiling, ladders and paint tins on the floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_10.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Folding glass door wall with an exposed brick side wall, plasterboard ceiling and ladders in the room",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_11.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Room opening to the yard where the pool shell is being excavated, ceiling framing overhead",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_12.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Rear of the extension with a ladder, glazed upper level and a ute loaded with tools parked below",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_13.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Street frontage of the cottage with a rendered front fence, iron gates and a bare tree, traffic cones behind the gate",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_14.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Narrow side passage between the cottage's stone base wall and a new corrugated fence, with offcuts on the ground",
+    "score": 2
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_15.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Rear of the extension with a two-level glazed facade, pool steps and a stone-faced outbuilding",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_16.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Pool shell with stone-faced retaining wall and paving beside a corrugated metal fence, water in the bottom",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_ovingham/ovingham_17.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Corner room with folding glass doors, a ceiling fan, tiled floor and a hanging egg chair",
+    "score": 3
+   }
+  ]
+ },
+ "rostrevor": {
+  "hero": "/images/pr_rostrevor/rostrevor_1.jpg",
+  "order": [
+   "/images/pr_rostrevor/rostrevor_10.jpg",
+   "/images/pr_rostrevor/rostrevor_1.jpg",
+   "/images/pr_rostrevor/rostrevor_2.jpg",
+   "/images/pr_rostrevor/rostrevor_11.jpg",
+   "/images/pr_rostrevor/rostrevor_12.jpg",
+   "/images/pr_rostrevor/rostrevor_13.jpg",
+   "/images/pr_rostrevor/rostrevor_14.jpg",
+   "/images/pr_rostrevor/rostrevor_4.jpg",
+   "/images/pr_rostrevor/rostrevor_15.jpg",
+   "/images/pr_rostrevor/rostrevor_16.jpg"
+  ],
+  "stages": [
+   "/images/pr_rostrevor/rostrevor_9.jpg",
+   "/images/pr_rostrevor/rostrevor_3.jpg",
+   "/images/pr_rostrevor/rostrevor_8.jpg",
+   "/images/pr_rostrevor/rostrevor_6.jpg",
+   "/images/pr_rostrevor/rostrevor_5.jpg",
+   "/images/pr_rostrevor/rostrevor_7.jpg"
+  ],
+  "pair": {
+   "earlier": "/images/pr_rostrevor/rostrevor_5.jpg",
+   "finished": "/images/pr_rostrevor/rostrevor_13.jpg",
+   "earlier_label": "During"
+  },
+  "notes": "Two townhouses are covered; the exterior photos may show either one. The pair is the same kitchen with the island protected before handover and finished.",
+  "images": [
+   {
+    "file": "/images/pr_rostrevor/rostrevor_1.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Front of a single-storey townhouse with dark brick, pale stone-look cladding, a tall brick pier and a timber entry door",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_2.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Side corner of a townhouse with dark brick, stone-look cladding, a skillion roof and a new concrete path",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_3.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Rear patio with brick walls, sliding doors and a skillion roof, steel mesh laid on the ground for the slab",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_4.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Bedroom with timber floor, built-in robe with open shelves and a ceiling fan, window at right",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_5.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Kitchen with cabinets installed and the island bench covered in protective plastic, pendant lights overhead",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_6.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Bathroom with dark wall tiles, a window and glass shower screen, the new bath still wrapped",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_7.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Kitchen cabinets and benchtop installed, with the island bench covered in protective sheeting",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_8.jpg",
+    "kind": "in-progress",
+    "stage": "fitout",
+    "room": "",
+    "people": false,
+    "alt": "Bathroom with plasterboard walls and a window, taps stubbed out and wet area waterproofing visible",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_9.jpg",
+    "kind": "in-progress",
+    "stage": "lockup",
+    "room": "",
+    "people": false,
+    "alt": "Front of a townhouse with dark brick and stone-look cladding, windows still covered in plastic and the path unfinished",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_10.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Single-storey brick house with a double garage, grey roof and a wide concrete driveway",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_11.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Rear of a brick house with a covered alfresco, sliding doors and a bare yard in front",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_12.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Open living area with polished tile floor, kitchen beyond and sliding glass doors at left",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_13.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with a dark-topped island bench, cream cabinets, pendant lights and polished tile floor",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_14.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with cream cabinets, mirror splashback, gas cooktop, wall oven and a dark-topped island",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_15.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with floating white vanity, glass shower screen, toilet and grey stone-look tiles",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_rostrevor/rostrevor_16.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Walk-in robe with white shelves, drawers and a hanging rail beside a timber floor",
+    "score": 3
+   }
+  ]
+ },
+ "stpeters": {
+  "hero": "/images/pr_stpeters/stpeters_1.jpg",
+  "order": [
+   "/images/pr_stpeters/stpeters_1.jpg",
+   "/images/pr_stpeters/stpeters_2.jpg",
+   "/images/pr_stpeters/stpeters_4.jpg",
+   "/images/pr_stpeters/stpeters_5.jpg",
+   "/images/pr_stpeters/stpeters_3.jpg",
+   "/images/pr_stpeters/stpeters_9.jpg",
+   "/images/pr_stpeters/stpeters_6.jpg",
+   "/images/pr_stpeters/stpeters_8.jpg",
+   "/images/pr_stpeters/stpeters_7.jpg",
+   "/images/pr_stpeters/stpeters_11.jpg",
+   "/images/pr_stpeters/stpeters_12.jpg",
+   "/images/pr_stpeters/stpeters_10.jpg"
+  ],
+  "stages": [],
+  "pair": null,
+  "notes": "All finished photos, no progress shots. Interiors are lived-in and furnished.",
+  "images": [
+   {
+    "file": "/images/pr_stpeters/stpeters_1.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Pair of sandstone houses with iron palisade fencing and gates, seen from across the street through trees",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_2.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Sandstone house with bay window and iron fence, beside a paved common driveway",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_3.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Paved courtyard with outdoor lounge furniture, a red brick wall and a timber-framed covered area",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_4.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Detail of an ornate sandstone facade with carved brackets and mouldings above windows",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_5.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Ornate cast iron balustrade beside the paved driveway, with the sandstone wall beyond",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_6.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with a white breakfast bar and stools, rangehood, fridge and timber floor",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_7.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Plaster corbel detail on a hallway arch with cornice and a doorway below",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_8.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Hallway with an ornate plaster arch and corbels leading to an arched passage",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_9.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Living room with a fireplace and mantel, two patterned armchairs, a gilt mirror and timber floor",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_10.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with a double vanity and round basins, large mirror, shower and a view into a walk-in robe",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_11.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Timber staircase turning at a window, with a white balustrade and black iron balusters",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_stpeters/stpeters_12.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Upstairs room under a sloped ceiling with a ceiling fan, desk and chair, and a stair balustrade at left",
+    "score": 3
+   }
+  ]
+ },
+ "tranmere": {
+  "hero": "/images/pr_tranmere/image-1.jpg",
+  "order": [
+   "/images/pr_tranmere/image-8.jpg",
+   "/images/pr_tranmere/image-1.jpg",
+   "/images/pr_tranmere/image-7.jpg",
+   "/images/pr_tranmere/image-2.jpg",
+   "/images/pr_tranmere/image-3.jpg",
+   "/images/pr_tranmere/image-4.jpg",
+   "/images/pr_tranmere/image-5.jpg",
+   "/images/pr_tranmere/image-6.jpg"
+  ],
+  "stages": [],
+  "pair": null,
+  "notes": "Includes a floor plan (image-6). image-8 shows the existing 1940s house from the street, not the new extension. Image files are named image-N, in a professional real-estate style.",
+  "images": [
+   {
+    "file": "/images/pr_tranmere/image-1.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Outdoor dining table on a paved courtyard beside dark clad walls and sliding glass doors into the living room",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_tranmere/image-2.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Living room with grey carpet, a sofa, timber sideboard, ring pendant light and sliding doors to the courtyard",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_tranmere/image-3.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Living room with sofa and sideboard, a doorway to an ensuite and sliding doors to the courtyard",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_tranmere/image-4.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Bedroom with a double bed, grey carpet, wall-mounted air conditioner and a window to one side",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_tranmere/image-5.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with white tiled walls, a grey floating vanity with a vessel basin and a glass shower screen",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_tranmere/image-6.jpg",
+    "kind": "plan",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Floor plan of a single-storey house with the new rear living, bedroom, garage and courtyard areas shaded",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_tranmere/image-7.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Outdoor dining table and chairs beside a red brick wall and dark clad wall under a covered patio",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_tranmere/image-8.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Front of an older single-storey house with a hipped roof, brick and stone verandah and a lawn behind an iron fence",
+    "score": 4
+   }
+  ]
+ },
+ "vlglenosmond": {
+  "hero": "/images/pr_vlglenosmond/vlglenosmond_2.jpg",
+  "order": [
+   "/images/pr_vlglenosmond/vlglenosmond_2.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_1.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_3.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_21.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_18.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_17.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_19.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_10.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_9.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_8.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_5.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_6.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_7.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_12.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_14.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_13.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_16.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_11.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_20.jpg",
+   "/images/pr_vlglenosmond/vlglenosmond_4.jpg"
+  ],
+  "stages": [],
+  "pair": null,
+  "notes": "All finished, furnished and styled real-estate photos; two homes were built but images appear to show one of them. Files vlglenosmond_20 and _21 are out of sequence in the input.",
+  "images": [
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_1.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Two-storey house with a double garage and dark upper level, driveway and a tree in the front garden",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_2.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Front of a two-storey home with a garage, glass balustrade balcony, pots and a timber fence under mature trees",
+    "score": 5
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_3.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Two-storey house front with a dark upper box, glass balcony, garage door and trees beside the driveway",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_4.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Planted bowl with grasses on white pebbles beside a dark rendered wall",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_21.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Back garden with a lap pool, lawn, raised timber deck and a covered barbecue area at the rear of the house",
+    "score": 5
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_5.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with a marble-look island, timber tall cupboards, glass splashback and a large wall clock",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_6.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen with long benches, gas cooktop, glass splashback and tall timber cupboards leading to the dining area",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_7.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "kitchen",
+    "people": false,
+    "alt": "Kitchen sink with a mixer tap beside a gas cooktop, glass splashback and timber cabinetry",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_8.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "dining",
+    "people": false,
+    "alt": "Dining table with cane chairs in front of a stone feature chimney and large glass doors",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_9.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Living room with two sofas, rug and coffee table beside a stone feature wall and sheer curtains",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_10.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "living",
+    "people": false,
+    "alt": "Living area with a stone feature chimney, fireplace, television and sofa under tall sheer curtains",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_11.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Hallway with a console table, a colourful painting and a carpeted staircase",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_12.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Main bedroom with a double bed, sheer curtains and sliding glass doors to a balcony",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_13.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bathroom",
+    "people": false,
+    "alt": "Bathroom with twin vessel basins, white vanity, glass shower and a high window",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_14.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Bedroom with a metal-framed bed with striped bedding, a framed print and a tall window to the garden",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_15.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "bedroom",
+    "people": false,
+    "alt": "Bedroom with a single bed, framed artwork on the wall and a tall window with a roller blind",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_16.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "laundry",
+    "people": false,
+    "alt": "Laundry with a sink bench, washing machine, tall cupboards and a glazed door to the garden",
+    "score": 3
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_17.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Covered timber deck with outdoor dining setting and barbecue, lawn and a small pool beyond",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_18.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Back garden with lawn, deck steps, a covered barbecue area and the house's glass doors behind",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_19.jpg",
+    "kind": "finished-exterior",
+    "stage": null,
+    "room": "",
+    "people": false,
+    "alt": "Lap pool beside a rendered wall with a stone feature panel, under a blue sky",
+    "score": 4
+   },
+   {
+    "file": "/images/pr_vlglenosmond/vlglenosmond_20.jpg",
+    "kind": "finished-interior",
+    "stage": null,
+    "room": "hallway",
+    "people": false,
+    "alt": "Hallway with a timber front door, a console table with a lamp and a view toward the garden",
+    "score": 3
+   }
+  ]
+ }
+}

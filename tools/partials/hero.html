@@ -1,0 +1,83 @@
+<!-- 1. Hero. The whole screen is a black sheet. The house is drawn on it from footings to roof,
+     then the sheet lifts and the photograph of the finished home is there.
+     Without motion or JavaScript the photograph simply shows. -->
+<section class="hero" id="hero" aria-labelledby="hero-title">
+  <div class="hero-art" aria-hidden="true">
+    <picture class="hero-photo">
+      <source media="(max-width: 899px)" type="image/avif" srcset="/assets/img/hero/torrens-park-phone.avif">
+      <source media="(max-width: 899px)" type="image/webp" srcset="/assets/img/hero/torrens-park-phone.webp">
+      <source type="image/avif" srcset="/assets/img/hero/torrens-park-1280.avif 1280w, /assets/img/hero/torrens-park-1920.avif 1920w" sizes="max(100vw, 220vh)">
+      <source type="image/webp" srcset="/assets/img/hero/torrens-park-1280.webp 1280w, /assets/img/hero/torrens-park-1920.webp 1920w" sizes="max(100vw, 220vh)">
+      <img src="/assets/img/hero/torrens-park-1280.jpg" width="1920" height="799" alt="" fetchpriority="high" decoding="async">
+    </picture>
+    <div class="hero-cover"></div>
+    <!-- Line elevation traced over the photograph, in its own pixel space (1920 by 799).
+         Five groups in build order; each rises from its own foot. -->
+    <svg class="hero-lines" viewBox="0 0 1920 799" preserveAspectRatio="none" focusable="false">
+      <g class="st" style="--t:0.3">
+        <path d="M300 676H1800"/>
+        <path class="hatch" d="M350 700l14-18M380 700l14-18M410 700l14-18M440 700l14-18M470 700l14-18M500 700l14-18M530 700l14-18M560 700l14-18M590 700l14-18M620 700l14-18M650 700l14-18M680 700l14-18M710 700l14-18M740 700l14-18M770 700l14-18M800 700l14-18M830 700l14-18M860 700l14-18M890 700l14-18M920 700l14-18M950 700l14-18M980 700l14-18M1010 700l14-18M1040 700l14-18M1070 700l14-18M1100 700l14-18M1130 700l14-18M1160 700l14-18M1190 700l14-18M1220 700l14-18M1250 700l14-18M1280 700l14-18M1310 700l14-18M1340 700l14-18M1370 700l14-18M1400 700l14-18M1430 700l14-18M1460 700l14-18M1490 700l14-18M1520 700l14-18M1550 700l14-18M1580 700l14-18M1610 700l14-18M1640 700l14-18M1670 700l14-18M1700 700l14-18M1730 700l14-18M1760 700l14-18M1790 700l14-18"/>
+        <path class="thin" d="M330 702H1800"/>
+        <path d="M812 676v-12h80v12M1056 676v-30h132v30"/>
+        <path class="thin" d="M892 664h164"/>
+      </g>
+      <g class="st" style="--t:1.15">
+        <path d="M500 676V356M517 640V402l256-10v240M770 640V300M797 660V296"/>
+        <path class="thin" d="M540 630V419l230-10M540 470l230-8M540 522l230-6M540 574l230-4"/>
+        <path d="M823 664V250M880 664V250M1067 646V250M1177 646V250"/>
+        <path class="thin" d="M1132 646V250M836 520V318h32v202zM1082 520V288h34v232zM1146 520V286h20v234z"/>
+        <path d="M1300 640V236M1313 632l460 16"/>
+        <path d="M1367 568V319l153-10v249M1352 574l184-12M1587 558V302l160-11v257M1572 563l191-12"/>
+        <path class="thin" d="M1403 560V340l103-7v219M1403 452l103-6M1622 550V323l108-7v226M1622 438l108-6M1307 282l446-31"/>
+      </g>
+      <g class="st" style="--t:2.0">
+        <path d="M923 388v-48a63.5 63.5 0 0 1 127 0v34"/>
+        <path d="M875 386v-38a96 96 0 0 1 192 0"/>
+        <path d="M1186 396v-66a50 62 0 0 1 100 0v66"/>
+        <path class="thin" d="M1177 345a61 80 0 0 1 122 0"/>
+        <path class="thin" d="M960 254h20l-4 24h-12zM1228 264h16l-3 20h-10z"/>
+        <path d="M858 388h72M1040 376h30M1278 396h44"/>
+        <path d="M800 248h92M1052 201h140M807 232l256-29M1185 203l115 32"/>
+        <path d="M775 172l373-75 197 75"/>
+        <path class="thin" d="M1067 122h24v35h-24zM1098 121h25v33h-25zM811 173h22v28h-22zM836 168h22v27h-22z"/>
+      </g>
+      <g class="st" style="--t:2.85">
+        <path class="heavy" d="M752 159l396-86 219 90M1285 205l505-70M460 347l313-45M699 284l116-12"/>
+        <path d="M792 148l283-100 73 22M1213 90l237-82 350 69M471 320l352-113"/>
+        <path class="thin" d="M1380 66l36 114M1440 46l38 126M1500 22l38 144M1556 30l38 134M1620 44l36 112M1690 58l34 92M600 300l-10 28M680 268l-12 46M760 238l-10 62"/>
+      </g>
+      <g class="st" style="--t:3.7">
+        <path class="heavy" d="M830 400V799M1783 350V799"/>
+        <path d="M453 497l370-3M453 535l370-2M850 476h933M850 540h933"/>
+        <path d="M1920 118l-137 22-76 38v22l50 50v90l26 10M300 799V462h127v337M280 460l3-58 47-50h75l45 48 3 60z"/>
+        <path class="thin" d="M493 440V799M515 439V799M540 438V799M565 437V799M590 436V799M617 435V799M643 434V799M672 433V799M701 432V799M730 431V799M763 430V799M798 429V799M870 412V799M907 410V799M945 408V799M987 406V799M1028 404V799M1071 403V799M1117 402V799M1163 400V799M1213 398V799M1267 397V799M1320 396V799M1375 396V799M1433 395V799M1495 394V799M1560 393V799M1627 392V799M1697 391V799"/>
+      </g>
+      <path class="level" style="--t:1.2" d="M1560 676l-9-14h18z"/>
+    </svg>
+  </div>
+
+  <p class="pictured label">Pictured: new home, Torrens Park, 550 sqm, built Dec 2012 to Dec 2013</p>
+  <ol class="stages label" aria-label="The order of a build">
+    <li style="--t:0.3">Footings</li>
+    <li style="--t:1.15">Walls</li>
+    <li style="--t:2.0">Portico</li>
+    <li style="--t:2.85">Roof</li>
+    <li style="--t:4.9">Handover</li>
+  </ol>
+  <button class="replay" type="button" id="replay">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.5-5.8M4 4v5h5"/></svg>
+    Build it again
+  </button>
+
+  <div class="wrap">
+    <p class="hero-kicker label"><i class="beam" aria-hidden="true"></i>Adelaide, South Australia</p>
+    <h1 class="shout" id="hero-title"><span style="--w:1">Traditional</span> <span style="--w:2">Master Builders.</span></h1>
+    <div class="hero-row">
+      <p class="lede" style="--w:3">On site and hands on. Second generation Adelaide builders of renovations and extensions, new homes, developments and commercial work, run with regular on site meetings.</p>
+      <div class="hero-actions" id="hero-actions" style="--w:4">
+        <a class="btn" href="/contact">Start a project conversation <svg class="arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="square" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn--line tel" href="tel:+61411510558">Call Peter&ensp;0411 510 558</a>
+      </div>
+    </div>
+  </div>
+</section>
