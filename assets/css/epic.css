@@ -16,10 +16,10 @@
   /* Materials */
   --iron: #0e1011; /* wrought iron: the dark ground */
   --bone: #f3eee4; /* lime render: light ground, and text on iron */
-  --sand: #cfb07a; /* sandstone face: numerals and marks on iron (8.9:1) */
+  --sand: #cfb07a; /* sandstone face: numerals and marks on iron (9.2:1) */
   --ink: #101213; /* text on light */
-  --ink-2: #454b4f; /* secondary text on light (8.4:1 on bone) */
-  --mist: #b9b6ad; /* secondary text on iron (9.3:1) */
+  --ink-2: #454b4f; /* secondary text on light (7.7:1 on bone) */
+  --mist: #b9b6ad; /* secondary text on iron (9.4:1) */
   --red: #b01f2c; /* Epic's red, from their mark: actions and marks */
   --red-2: #8f1722; /* pressed */
   --rule-dark: rgba(243, 238, 228, 0.18);
@@ -855,7 +855,7 @@ fieldset {
   font-size: clamp(22px, 2.5vw, 38px);
   line-height: 1.05;
   letter-spacing: -0.025em;
-  color: #6f6e68;
+  color: #63625c;
   cursor: pointer;
   user-select: none;
   -webkit-tap-highlight-color: transparent;

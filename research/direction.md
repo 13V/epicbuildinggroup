@@ -41,12 +41,12 @@ Colour
 | Token | Value | Use |
 |---|---|---|
 | `--iron` | `#0e1011` | dark ground, header, hero sheet, footer |
-| `--bone` | `#f3eee4` | light ground; text on iron (16.6:1) |
-| `--sand` | `#cfb07a` | numerals and marks on iron (8.9:1) |
+| `--bone` | `#f3eee4` | light ground; text on iron (16.5:1) |
+| `--sand` | `#cfb07a` | numerals and marks on iron (9.2:1) |
 | `--ink` | `#101213` | text on bone |
-| `--ink-2` | `#454b4f` | secondary text on bone (8.4:1) |
-| `--mist` | `#b9b6ad` | secondary text on iron (9.3:1) |
-| `--red` | `#b01f2c` | actions, the beam; white text on it is 6.9:1 |
+| `--ink-2` | `#454b4f` | secondary text on bone (7.7:1) |
+| `--mist` | `#b9b6ad` | secondary text on iron (9.4:1) |
+| `--red` | `#b01f2c` | actions, the beam; white text on it is 6.8:1 |
 | `--red-2` | `#8f1722` | pressed |
 | rules | bone at 18% on iron, ink at 16% on bone | 1px dividers; 2px ink rule opens a list |
 
